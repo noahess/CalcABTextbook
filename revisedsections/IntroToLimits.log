@@ -1,12 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.5.18)  21 MAY 2016 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.5.18)  21 MAY 2016 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./main.tex
-(./main.tex
+**./IntroToLimits.tex
+(./IntroToLimits.tex
 LaTeX2e <2016/03/31>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
+(c:/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(c:/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../revisedMain.tex'
+(../revisedMain.tex (c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (c:/texlive/2015/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -25,8 +34,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (c:/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -339,13 +348,7 @@ Now handling font encoding U ...
 ))
 (c:/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(c:/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks16
-\verbatim@line=\toks17
-\verbatim@in@stream=\read1
-))
+)
 (c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip43
@@ -996,28 +999,28 @@ File: csquotes.cfg
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./main.aux)
-\openout1 = `main.aux'.
+))
+(./IntroToLimits.aux)
+\openout1 = `IntroToLimits.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
-
-(c:/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 2.
+ (c:/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 2.
 
 ABD: EveryShipout initializing macros
 (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1086,39 +1089,24 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
 [1
 
-{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
-
-[2] (./sections/introduction.tex) [3] (./sections/limits.tex [4] [5] [6]
-[7] [8]) [9] (./sections/derivatives.tex [10] [11] [12] [13] [14] [15])
-[16] (./main.aux) ) 
+{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./IntroToLimits.aux) ) 
 Here is how much of TeX's memory you used:
- 23627 strings out of 493027
- 591721 string characters out of 6137678
- 1641498 words of memory out of 5000000
- 26760 multiletter control sequences out of 15000+600000
- 9369 words of font info for 34 fonts, out of 8000000 for 9000
+ 23393 strings out of 493027
+ 587312 string characters out of 6137678
+ 740262 words of memory out of 5000000
+ 26545 multiletter control sequences out of 15000+600000
+ 4094 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,17n,101p,1750b,2106s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr5.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (16 pages, 231993 bytes).
+ 71i,9n,100p,772b,1854s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on IntroToLimits.pdf (1 page, 43740 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

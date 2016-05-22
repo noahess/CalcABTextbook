@@ -1,0 +1,14 @@
+\documentclass[../revisedMain.tex]{subfiles}
+\begin{document}
+	\par	Limits are a way of skirting the normal rules of math. Without the knowledge of limits, whenever a function divides by 0 or involves $\infty$ in any way, calculations become impossible. Limits take the rules of math a little less seriously and can be used to calculate what a value ``should be''. A simple example of where limits come in handy is when there is a ``hole'' in a graph:
+	\begin{center}
+		\begin{tikzpicture}
+		\begin{axis}
+		\addplot[domain=0:4,blue]{x+2};
+		\addplot[holdot] coordinates{(2,4)};
+		\end{axis}
+		\end{tikzpicture}
+	\end{center}
+	$$f(x)=\frac{x^2-4}{x-2}$$
+	Because $f(x)$ divides by 0 when $x=2$, there can be no answer here. However, we can tell that $f(2)$ should be 4 ignoring the division by zero. We can tell this because as $x$ becomes greater and nearer to 2 (approaching $x=2$ from the left), the value of $f(x)$ approaches 4. Similarly, when $x$ decreases and becomes nearer to $x=2$ (approaching $x=2$ from the right), the value of $f(x)$ approaches 4. Therefore, as both sides of $x=2$ become closer and closer, they converge upon a single point: $f(2)=4$.
+\end{document}

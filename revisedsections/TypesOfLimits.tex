@@ -1,0 +1,16 @@
+\documentclass[../revisedMain.tex]{subfiles}
+\begin{document}
+	\par 	There are more than one type of limits. There is the traditional limit: $$\lim_{x\to c} f(x)$$ which simply is read as the limit of the function $f(x)$ as $x$ approaches $c$. There are more than just this first type, however.
+	\paragraph{Types} We define $\lim\limits_{x\to c}$ to be:$$\lim_{x\to c} f(x) = \lim_{x\to c^+} f(x) =\lim_{x\to c^-} f(x)$$ which should be read as: \textit{the limit of $f(x)$ as $x$ approaches $c$} \textbf{is equal to} \textit{the limit of $f(x)$ as $x$ approaches $c$ from the right side} \textbf{and equal to} \textit{the limit of $f(x)$ as $x$ approaches $c$ from the left side}. If $\lim\limits_{x\to c^+} f(x) \neq\lim\limits_{x\to c^-} f(x)$, we say that the limit of $f(x)$ at $c$ must not exist. Let's take a look at a graph:
+	\begin{center}
+		\begin{tikzpicture}
+		\begin{axis}[restrict y to domain=-10:10,axis lines=middle,]
+		\addplot[domain=-1:4,blue,samples=75]{1+(1/((x-1)^2))};
+		\addplot[domain=-4:-1,blue,samples=25]{1+(x^-1)};
+		\addplot[holdot] coordinates{(-1,1.25)};
+		\addplot[dot] coordinates{(-1,0)};
+		\end{axis}
+		\end{tikzpicture}
+	\end{center} 
+
+\end{document}
