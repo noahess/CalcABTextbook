@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 MAY 2016 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 MAY 2016 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1039,37 +1039,45 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.12}).
 (./revisedsections/TypesOfLimits.tex [3]) [4]
 (./revisedsections/DirectlyCalculatingLimits.tex [5] [6] [7] [8])
 (./revisedsections/SqueezeTheorem.tex [9])
-(./revisedsections/IntroToDerivatives.tex [10])
-(./revisedsections/DifferenceQuotient.tex [11])
-(./revisedsections/EstimatingDerivatives.tex [12])
-(./revisedsections/DerivativeRules.tex [13] [14])
+(./revisedsections/LimitsRelativeMagnitudes.tex
+Package pgfplots info on input line 7: Using 'lua backend=false' for axis: ymod
+e=log unsupported (yet).
+
+NOTE: coordinate (0Y0.0e0],1Y1.0e0]) has been dropped because it is unbounded (
+in x). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],0Y0.0e0]) has been dropped because it is unbounded (
+in x). (see also unbounded coords=jump). 
+[10]) (./revisedsections/IntroToDerivatives.tex [11])
+(./revisedsections/DifferenceQuotient.tex [12])
+(./revisedsections/EstimatingDerivatives.tex [13])
+(./revisedsections/DerivativeRules.tex [14] [15])
 (./revisedsections/ImplicitDifferentiation.tex)
-(./revisedsections/MaxAndMin.tex [15] [16]) (./revisedsections/Concavity.tex
-[17]) (./revisedsections/DerivativeGraphs.tex [18]) [19]
-(./revisedsections/DerivativesAndContinuity.tex)
-(./revisedsections/DerivativeUnits.tex) [20]
+(./revisedsections/MaxAndMin.tex [16] [17]) (./revisedsections/Concavity.tex
+[18]) (./revisedsections/DerivativeGraphs.tex [19]) [20]
+(./revisedsections/DerivativesAndContinuity.tex) [21]
+(./revisedsections/DerivativeUnits.tex)
 (./revisedsections/InstantaneousRateOfChange.tex)
-(./revisedsections/TangentLineApproximations.tex [21])
+(./revisedsections/TangentLineApproximations.tex [22])
 (./revisedsections/DerivativePhysics.tex)
-(./revisedsections/DerivativeRelatedRates.tex) [22]
+(./revisedsections/DerivativeRelatedRates.tex [23])
 (./revisedsections/Optimization.tex)
-(./revisedsections/DifferentialEquations.tex)
+(./revisedsections/DifferentialEquations.tex [24])
 (./revisedsections/SlopeFields.tex
 
 Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
 ng it (it is [0.0:0.0]) on input line 9.
 
  [warning /pgfplots/warning/approx empty range enlarged]
-[23]) (./revisedsections/MeanValueTheorem.tex)
-(./revisedsections/LhospitalsRule.tex) [24] (./revisedMain.aux) ) 
+) [25] (./revisedsections/MeanValueTheorem.tex)
+(./revisedsections/LhospitalsRule.tex) [26] (./revisedMain.aux) ) 
 Here is how much of TeX's memory you used:
- 23727 strings out of 493089
- 594312 string characters out of 6134842
+ 23488 strings out of 493089
+ 589514 string characters out of 6134842
  1766496 words of memory out of 5000000
- 26736 multiletter control sequences out of 15000+600000
+ 26494 multiletter control sequences out of 15000+600000
  9369 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,17n,101p,1773b,6875s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,17n,101p,1773b,5140s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texl
@@ -1087,10 +1095,10 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on revisedMain.pdf (24 pages, 298864 bytes).
+Output written on revisedMain.pdf (26 pages, 297197 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 156 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

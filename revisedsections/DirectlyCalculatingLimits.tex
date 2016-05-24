@@ -25,7 +25,7 @@ $$\lim_{x\to 0} f(x) \text{ Does Not Exist}$$
 \begin{center}
 \begin{tikzpicture}
 	\begin{axis}
-	\addplot[domain=-1.5:1.5,orange,samples=150]{sin(360*(x)^-1)};
+	\addplot[domain=-1.5:1.5,orange,smooth,samples=150]{sin(360*(x)^-1)};
 	\end{axis}
 \end{tikzpicture}
 $$\lim_{x\to 0} \text{sin} \left ( \frac{1}{x} \right ) \text{ Does Not Exist}$$
