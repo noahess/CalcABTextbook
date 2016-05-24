@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 MAY 2016 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 MAY 2016 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1039,7 +1039,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.12}).
 (./revisedsections/TypesOfLimits.tex [3]) [4]
 (./revisedsections/DirectlyCalculatingLimits.tex [5] [6] [7] [8])
 (./revisedsections/SqueezeTheorem.tex [9])
-(./revisedsections/LimitsRelativeMagnitudes.tex
+(./revisedsections/RelativeMagnitudes.tex
 Package pgfplots info on input line 7: Using 'lua backend=false' for axis: ymod
 e=log unsupported (yet).
 
@@ -1047,7 +1047,7 @@ NOTE: coordinate (0Y0.0e0],1Y1.0e0]) has been dropped because it is unbounded (
 in x). (see also unbounded coords=jump). 
 NOTE: coordinate (0Y0.0e0],0Y0.0e0]) has been dropped because it is unbounded (
 in x). (see also unbounded coords=jump). 
-[10]) (./revisedsections/IntroToDerivatives.tex [11])
+[10]) [11] (./revisedsections/IntroToDerivatives.tex)
 (./revisedsections/DifferenceQuotient.tex [12])
 (./revisedsections/EstimatingDerivatives.tex [13])
 (./revisedsections/DerivativeRules.tex [14] [15])
@@ -1072,7 +1072,7 @@ ng it (it is [0.0:0.0]) on input line 9.
 (./revisedsections/LhospitalsRule.tex) [26] (./revisedMain.aux) ) 
 Here is how much of TeX's memory you used:
  23488 strings out of 493089
- 589514 string characters out of 6134842
+ 589496 string characters out of 6134842
  1766496 words of memory out of 5000000
  26494 multiletter control sequences out of 15000+600000
  9369 words of font info for 34 fonts, out of 8000000 for 9000
@@ -1095,7 +1095,7 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on revisedMain.pdf (26 pages, 297197 bytes).
+Output written on revisedMain.pdf (26 pages, 299306 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
