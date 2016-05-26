@@ -6,9 +6,9 @@
 \contentsline {paragraph}{``Plugging In''}{7}
 \contentsline {paragraph}{Reduction}{7}
 \contentsline {paragraph}{Sense at $\infty $}{8}
-\contentsline {subsection}{\numberline {1.3}When Limits Don't Exist}{8}
-\contentsline {subsection}{\numberline {1.4}The Squeeze Theorem}{11}
-\contentsline {subsection}{\numberline {1.5}Relative Magnitudes}{12}
+\contentsline {subsection}{\numberline {1.3}When Limits Don't Exist}{9}
+\contentsline {subsection}{\numberline {1.4}The Squeeze Theorem}{12}
+\contentsline {subsection}{\numberline {1.5}Relative Magnitudes}{13}
 \contentsline {section}{\numberline {2}Derivatives}{14}
 \contentsline {paragraph}{Slopes}{14}
 \contentsline {subsection}{\numberline {2.1}Difference Quotient}{14}
@@ -22,7 +22,7 @@
 \contentsline {paragraph}{The Quotient Rule}{17}
 \contentsline {paragraph}{The Chain Rule}{18}
 \contentsline {subsection}{\numberline {2.6}Implicit Differentiation}{18}
-\contentsline {subsection}{\numberline {2.7}Maxima and Minima}{18}
+\contentsline {subsection}{\numberline {2.7}Maxima and Minima}{19}
 \contentsline {paragraph}{I lied.}{19}
 \contentsline {subsection}{\numberline {2.8}Concavity}{21}
 \contentsline {subsection}{\numberline {2.9}Graphical Relations}{22}
@@ -47,11 +47,12 @@
 \contentsline {subsection}{\numberline {4.6}Integrals Generating Functions}{34}
 \contentsline {subsection}{\numberline {4.7}Calculating Area}{34}
 \contentsline {subsection}{\numberline {4.8}Disc Method}{35}
-\contentsline {subsection}{\numberline {4.9}Shell Method}{36}
-\contentsline {section}{\numberline {5}The Fundamental Theorem}{37}
-\contentsline {subsection}{\numberline {5.1}Introduction}{37}
-\contentsline {subsection}{\numberline {5.2}Consequences}{37}
-\contentsline {section}{\numberline {6}Applications of the Funadamental Theorem}{38}
-\contentsline {subsection}{\numberline {6.1}Differential Equations}{38}
-\contentsline {subsection}{\numberline {6.2}Accumulation and Net Change}{38}
-\contentsline {subsection}{\numberline {6.3}Physics}{38}
+\contentsline {subsection}{\numberline {4.9}Shell Method}{37}
+\contentsline {section}{\numberline {5}The Fundamental Theorem}{38}
+\contentsline {subsection}{\numberline {5.1}Introduction}{38}
+\contentsline {subsection}{\numberline {5.2}Consequences}{38}
+\contentsline {section}{\numberline {6}Applications of the Funadamental Theorem}{39}
+\contentsline {subsection}{\numberline {6.1}Differential Equations}{39}
+\contentsline {subsection}{\numberline {6.2}Accumulation and Net Change}{39}
+\contentsline {subsection}{\numberline {6.3}Physics}{40}
+\contentsline {section}{\numberline {7}Endnotes}{41}
