@@ -5,11 +5,33 @@
 \usepackage{pgfplots}
 \usepackage{textcomp}
 \usepackage{csquotes}
+\usepackage{pstricks-add}
+\psset{plotpoints=200,algebraic}
 \pgfplotsset{compat=1.12}
 \pgfplotsset{width=10cm}
 \pgfplotsset{holdot/.style={color=blue,fill=white,only marks,mark=*}}
 \pgfplotsset{dot/.style={color=blue,fill=blue,only marks,mark=*}}
 \usepgfplotslibrary{groupplots}
+\pgfplotsdefinecstransform{polarrad along x}{cart}{%
+	% First, swap axis such that we can apply polarrad->cart.
+	% Note that polarrad expects (<angle>,<radius>,Z):
+	\pgfkeysgetvalue{/data point/x}\X% copy value of /data point/x into \X
+	\pgfkeysgetvalue{/data point/y}\Y
+	\pgfkeyslet{/data point/y}\X% copy value of \X into /data point/y
+	\pgfkeyslet{/data point/x}\Y
+	\pgfplotsaxistransformcs
+	{polarrad}
+	{cart}%
+	%
+	% Ok, now we have cartesian. Swap axes such that we have them
+	% along X:
+	\pgfkeysgetvalue{/data point/x}\X
+	\pgfkeysgetvalue{/data point/y}\Y
+	\pgfkeysgetvalue{/data point/z}\Z
+	\pgfkeyslet{/data point/y}\X
+	\pgfkeyslet{/data point/z}\Y
+	\pgfkeyslet{/data point/x}\Z
+}%
 %\usepgfplotslibrary{fillbetween}
 \title{Noah's Guide to Calculus}
 \author{Noah Stockwell}
@@ -21,6 +43,8 @@
 xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \addplot3[domain=-3:3,mesh,samples=40]{x^2-y^2};
 \end{axis}\end{tikzpicture}\end{center}
+\newpage
+\subfile{Introduction}
 \newpage
 \tableofcontents
 \newpage
@@ -50,4 +74,24 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \subsection{Slope Fields}\subfile{revisedsections/SlopeFields}\newpage
 \subsection{Mean Value Theorem}\subfile{revisedsections/MeanValueTheorem}
 \subsection{L'h\^{o}pital's Rule}\subfile{revisedsections/LhospitalsRule}
+\newpage
+\section{Antiderivatives and Definite Integrals}
+\subsection{Antiderivatives}\subfile{revisedsections/Antiderivatives}
+\subsection{Riemann Sums}\subfile{revisedsections/RiemannSums}
+\subsection{Limits of Riemann Sums}\subfile{revisedsections/LimitsOfRiemannSums}
+\subsection{Rules of Integrals}\subfile{revisedsections/RulesOfIntegrals}
+\subsection{Average Value}\subfile{revisedsection/AverageValue}
+\subsection{Integrals Generating Functions}\subfile{revisedsections/IntegralsGeneratingFunctions}
+\subsection{Calculating Area}\subfile{revisedsections/CalculatingArea}
+\subsection{Disc Method}\subfile{revisedsections/DiscMethod}
+\subsection{Shell Method}\subfile{revisedsections/WasherMethod}
+\newpage
+\section{The Fundamental Theorem}
+\subsection{Introduction}\subfile{revisedsections/FundamentalTheoremIntroduction}
+\subsection{Consequences}\subfile{revisedsections/FunadamentalTheoremConsequences}
+\newpage
+\section{Applications of the Funadamental Theorem}
+\subsection{Differential Equations}\subfile{revisedsections/SolvingDifferentialEquations}
+\subsection{Accumulation and Net Change}\subfile{revisedsections/AccumulationAndNetChange}
+\subsection{Physics}\subfile{revisedsections/SolvingPhysicsWithFundamentalTheorem}
 \end{document}
