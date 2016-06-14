@@ -1,0 +1,23 @@
+\documentclass[../revisedmain.tex]{subfiles}
+\begin{document}
+	Continuity does not guarantee that the derivative will always exist. Even though a function like
+	\[
+	f(x)=
+	\begin{cases}
+	x & x\leq 1\\
+	x^2 & x>1 
+	\end{cases}
+	\]
+	is continuous everywhere, its derivative is not. The derivative is a limit, so for it to exist, it must be the same on both sides. If the limit of the difference quotient (the derivative) is calculated at $x=1$, the results are:
+	$$\lim_{x\to 1^-} f'(x) = \lim_{x\to 1^-} 1 = 1$$
+	$$\lim_{x\to 1^+} f'(x)= \lim_{x\to 1^+} 2x = 2$$
+	which are not equal. The derivative must not exist for all values of $x$. However, if the derivative of a function is continuous everywhere, that means that the function itself must be differentiable everywhere. Therefore, functions that do not result in a piecewise derivative and have a domain of $(-\infty,\infty)$ must be differentiable everywhere. Functions that are differentiable and expected to be calculated by Calculus students are::
+	\begin{enumerate}
+		\item Polynomials $(x^n+x^{n-1}+...)$
+		\item Power functions $(ax^b)$
+		\item Sin(x)
+		\item Cos(x)
+		\item Exponential functions $(ba^x)$
+		\item Logarithmic functions
+		\end{enumerate}
+\end{document}

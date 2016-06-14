@@ -1,11 +1,12 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{subfiles}
-\usepackage{amsmath}
+\usepackage{mathtools}
 \usepackage{pgfplots}
 \usepackage{textcomp}
 \usepackage{csquotes}
 \usepackage{pstricks-add}
+\mathtoolsset{showonlyrefs}
 \psset{plotpoints=200,algebraic}
 \pgfplotsset{compat=1.12}
 \pgfplotsset{width=10cm}
@@ -36,6 +37,10 @@
 \title{Noah's Guide to Calculus}
 \author{Noah Stockwell}
 \date{Summer 2016}
+\newcommand{\newchapter}[2]
+{
+	\subsection{#1}\subfile{revisedsections/#2}\newpage\subfile{revisedwalkthroughs/#2}\newpage\subfile{revisedproblems/#2}\newpage
+}
 \begin{document}
 \maketitle
 \vspace{2in}
@@ -44,12 +49,13 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \addplot3[domain=-3:3,mesh,samples=40]{x^2-y^2};
 \end{axis}\end{tikzpicture}\end{center}
 \newpage
-\subfile{Introduction}
+\subfile{revisedsections/Introduction}
 \newpage
 \tableofcontents
 \newpage
 \section{Limits} \subfile{revisedsections/IntroToLimits}
-\subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits} 
+\newchapter{Types of Limits}{TypesOfLimits}
+%\subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits} 
 \subsection{Directly Calculating Limits} \subfile{revisedsections/DirectlyCalculatingLimits}\newpage
 \subsection{The Squeeze Theorem} \subfile{revisedsections/SqueezeTheorem}\newpage
 \subsection{Relative Magnitudes} \subfile{revisedsections/RelativeMagnitudes}\newpage
@@ -80,7 +86,7 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \subsection{Riemann Sums}\subfile{revisedsections/RiemannSums}
 \subsection{Limits of Riemann Sums}\subfile{revisedsections/LimitsOfRiemannSums}
 \subsection{Rules of Integrals}\subfile{revisedsections/RulesOfIntegrals}
-\subsection{Average Value}\subfile{revisedsection/AverageValue}
+\subsection{Average Value}\subfile{revisedsections/AverageValue}
 \subsection{Integrals Generating Functions}\subfile{revisedsections/IntegralsGeneratingFunctions}
 \subsection{Calculating Area}\subfile{revisedsections/CalculatingArea}
 \subsection{Disc Method}\subfile{revisedsections/DiscMethod}

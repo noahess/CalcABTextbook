@@ -1,0 +1,19 @@
+\documentclass[../revisedMain.tex]{subfiles}
+\begin{document}
+	\par 	Limits are just a way of finding what a graph should be. Looking at the previous example, we can trace the graph as it comes closer to $x=2$ from the left to make an educated guess and say that $f(2)$ should be about 4. We can write this in special limit notation: $$\lim_{x\to 2^-} f(x) = 4$$ In English, that means \textit{the limit as $x$ approaches $2$ from the left is $4$}. The - sign is appended to the 2 to show that we are using how the graph is to the left of $x=2$ to approximate $x=2$. If we were using the graph to the right to approximate $x=2$, we would write: $$\lim_{x\to 2^+} f(x) = 4$$ These are called \textbf{one-sided limits}. The one-sided limits from both sides of the graph do not necessarily need to be the same.
+	\paragraph{The Limit} We define $\lim\limits_{x\to c}$ (the value that the graph approaches)to be:$$\lim_{x\to c} f(x) = \lim_{x\to c^+} f(x) =\lim_{x\to c^-} f(x)$$ which should be read as: \textit{the limit of $f(x)$ as $x$ approaches $c$} \textbf{is equal to} \textit{the limit of $f(x)$ as $x$ approaches $c$ from the right side} \textbf{and equal to} \textit{the limit of $f(x)$ as $x$ approaches $c$ from the left side}. The limit from the left side is simply the value that the graph of $f(x)$ approaches as $x$ increases to the limit point. The same is true for the right side: the limit is what the graph approaches as $x$ becomes smaller towards the the limit point. If $\lim\limits_{x\to c^+} f(x) \neq\lim\limits_{x\to c^-} f(x)$, we say that the limit of $f(x)$ at $c$ must not exist.
+	\begin{center}
+		\begin{tikzpicture}
+		\begin{axis}[restrict y to domain=-10:10,axis lines=middle,]
+		\addplot[domain=-1:4,blue,samples=75]{2+(1/((x-1)^2))};
+		\addplot[domain=-4:-1,blue,samples=25]{1+(x^-1)};
+		\addplot[holdot] coordinates{(-1,2.25)};
+		\addplot[dot] coordinates{(-1,0)};
+		\addplot[dot] coordinates{(0,3)};
+		\addplot[blue, dashed]{1};
+		\addplot[blue, dashed]{2};
+		\end{axis}
+		\end{tikzpicture}
+	\end{center}
+	In the above graph, $\lim\limits_{x\to -1} f(x)$ doesn't exist because $\lim\limits_{x\to -1^+} f(x)=\sqrt{2}+1$ and $\lim\limits_{x\to -1^-} f(x)=0$. The graph doesn't need to have a hole in it to have a limit. In fact, \textbf{any continuous part of a graph has a limit}. For example, the limit as $x$ approaches 0 exists. The limit is equal to 2. Limits can also be infinite. Because $\lim\limits_{x\to 1^+} f(x)$ and $\lim\limits_{x\to 1^-} f(x)$ are both equal to $\infty$, $\lim\limits_{x\to 1} f(x)= \infty$. Similarly, we can take the limit at infinity. Because they are asymptotes. $\lim\limits_{x\to\infty} f(x) = 2$ and $\lim\limits_{x\to\ -\infty} f(x) = 1$. Because we can only approach limits at infinity from one side, we omit the + and - following the value as they are implied. However, this means that \textbf{all asymptotes are limits taken at infinity}.
+\end{document}
