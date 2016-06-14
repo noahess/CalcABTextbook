@@ -39,7 +39,7 @@
 \date{Summer 2016}
 \newcommand{\newchapter}[2]
 {
-	\subsection{#1}\subfile{revisedsections/#2}\newpage\subfile{revisedwalkthroughs/#2}\newpage\subfile{revisedproblems/#2}\newpage
+	\subsection{#1}\subfile{revisedsections/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\newpage\subfile{revisedwalkthroughs/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\newpage\subfile{revisedproblems/#2}\newpage
 }
 \begin{document}
 \maketitle
@@ -54,13 +54,12 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \tableofcontents
 \newpage
 \section{Limits} \subfile{revisedsections/IntroToLimits}
-\newchapter{Types of Limits}{TypesOfLimits}
-%\subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits} 
-\subsection{Directly Calculating Limits} \subfile{revisedsections/DirectlyCalculatingLimits}\newpage
-\subsection{The Squeeze Theorem} \subfile{revisedsections/SqueezeTheorem}\newpage
+\subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits} 
+\newchapter{Directly Calculating Limits}{DirectlyCalculatingLimits}
+\newchapter{The Squeeze Theorem}{SqueezeTheorem}
 \subsection{Relative Magnitudes} \subfile{revisedsections/RelativeMagnitudes}\newpage
 \section{Derivatives} \subfile{revisedsections/IntroToDerivatives}
-\subsection{Difference Quotient} \subfile{revisedsections/DifferenceQuotient}
+\newchapter{The Difference Quotient}{DifferenceQuotient}
 \subsection{Estimating Derivatives}\subfile{revisedsections/EstimatingDerivatives}
 \subsection{Rules} \subfile{revisedsections/DerivativeRules}
 \subsection{Implicit Differentiation}\subfile{revisedsections/ImplicitDifferentiation}\newpage

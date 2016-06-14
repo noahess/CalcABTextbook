@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUN 2016 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUN 2016 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,11 +1283,17 @@ map/pdftex.map}] (./revisedsections/Introduction.tex) [2] (./revisedMain.toc
 \openout4 = `revisedMain.toc'.
 
  [4] (./revisedsections/IntroToLimits.tex)
-(./revisedsections/TypesOfLimits.tex [5]) [6] [7]
-(./revisedwalkthroughs/TypesOfLimits.tex) [8] [9]
-(./revisedproblems/TypesOfLimits.tex) [10] [11]
-(./revisedsections/DirectlyCalculatingLimits.tex [12] [13] [14] [15]) [16]
-(./revisedsections/SqueezeTheorem.tex) [17]
+(./revisedsections/TypesOfLimits.tex [5]) [6]
+(./revisedsections/DirectlyCalculatingLimits.tex [7] [8] [9] [10]) [11]
+(./revisedwalkthroughs/DirectlyCalculatingLimits.tex [12]) [13]
+(./revisedproblems/DirectlyCalculatingLimits.tex) [14]
+(./revisedsections/SqueezeTheorem.tex)
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 17--59
+ [] 
+ []
+
+[15] (./revisedwalkthroughs/SqueezeTheorem.tex) [16]
+(./revisedproblems/SqueezeTheorem.tex)
 (./revisedsections/RelativeMagnitudes.tex
 Package pgfplots info on input line 7: Using 'lua backend=false' for axis: ymod
 e=log unsupported (yet).
@@ -1296,31 +1302,33 @@ NOTE: coordinate (0Y0.0e0],1Y1.0e0]) has been dropped because it is unbounded (
 in x). (see also unbounded coords=jump). 
 NOTE: coordinate (0Y0.0e0],0Y0.0e0]) has been dropped because it is unbounded (
 in x). (see also unbounded coords=jump). 
-) [18] (./revisedsections/IntroToDerivatives.tex)
-(./revisedsections/DifferenceQuotient.tex [19])
-(./revisedsections/EstimatingDerivatives.tex [20])
-(./revisedsections/DerivativeRules.tex [21] [22])
-(./revisedsections/ImplicitDifferentiation.tex) [23]
-(./revisedsections/MaxAndMin.tex [24]) (./revisedsections/Concavity.tex
-[25]) (./revisedsections/DerivativeGraphs.tex [26]) [27]
-(./revisedsections/DerivativesAndContinuity.tex) [28]
+) [17] (./revisedsections/IntroToDerivatives.tex)
+(./revisedsections/DifferenceQuotient.tex [18]) [19]
+(./revisedwalkthroughs/DifferenceQuotient.tex) [20]
+(./revisedproblems/DifferenceQuotient.tex) [21]
+(./revisedsections/EstimatingDerivatives.tex)
+(./revisedsections/DerivativeRules.tex [22] [23])
+(./revisedsections/ImplicitDifferentiation.tex) [24]
+(./revisedsections/MaxAndMin.tex [25]) (./revisedsections/Concavity.tex
+[26]) (./revisedsections/DerivativeGraphs.tex [27]) [28]
+(./revisedsections/DerivativesAndContinuity.tex) [29]
 (./revisedsections/DerivativeUnits.tex)
 (./revisedsections/InstantaneousRateOfChange.tex)
-(./revisedsections/TangentLineApproximations.tex [29])
+(./revisedsections/TangentLineApproximations.tex [30])
 (./revisedsections/DerivativePhysics.tex)
-(./revisedsections/DerivativeRelatedRates.tex [30])
+(./revisedsections/DerivativeRelatedRates.tex [31])
 (./revisedsections/Optimization.tex)
-(./revisedsections/DifferentialEquations.tex [31])
+(./revisedsections/DifferentialEquations.tex [32])
 (./revisedsections/SlopeFields.tex
 
 Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
 ng it (it is [0.0:0.0]) on input line 9.
 
  [warning /pgfplots/warning/approx empty range enlarged]
-) [32] (./revisedsections/MeanValueTheorem.tex)
-(./revisedsections/LhospitalsRule.tex) [33]
+) [33] (./revisedsections/MeanValueTheorem.tex)
+(./revisedsections/LhospitalsRule.tex) [34]
 (./revisedsections/Antiderivatives.tex) (./revisedsections/RiemannSums.tex
-[34] [35] [36]
+[35] [36] [37]
 Overfull \hbox (37.20444pt too wide) detected at line 63
 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c\OT1/cm
 r/m/n/10 ) + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c \OT1/cmr/m/n
@@ -1335,35 +1343,35 @@ Overfull \hbox (25.14917pt too wide) detected at line 63
 \OT1/cmr/m/n/10 = [] []
  []
 
-) (./revisedsections/LimitsOfRiemannSums.tex [37])
+) (./revisedsections/LimitsOfRiemannSums.tex [38])
 (./revisedsections/RulesOfIntegrals.tex) (./revisedsections/AverageValue.tex
 Overfull \hbox (19.08008pt too wide) in paragraph at lines 3--3
 \OT1/cmr/m/n/10 points $\OML/cmm/m/it/10 a$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/
 10 b$\OT1/cmr/m/n/10 . The arith-metic mean (av-er-age) of any-thing is $[]$.
  []
 
-[38]) (./revisedsections/IntegralsGeneratingFunctions.tex)
+[39]) (./revisedsections/IntegralsGeneratingFunctions.tex)
 (./revisedsections/CalculatingArea.tex) (./revisedsections/DiscMethod.tex
-[39] [40]) (./revisedsections/WasherMethod.tex [41]) [42]
+[40] [41]) (./revisedsections/WasherMethod.tex [42]) [43]
 (./revisedsections/FundamentalTheoremIntroduction.tex)
-(./revisedsections/FunadamentalTheoremConsequences.tex) [43]
+(./revisedsections/FunadamentalTheoremConsequences.tex) [44]
 (./revisedsections/SolvingDifferentialEquations.tex)
-(./revisedsections/AccumulationAndNetChange.tex) [44]
-(./revisedsections/SolvingPhysicsWithFundamentalTheorem.tex) [45]
+(./revisedsections/AccumulationAndNetChange.tex) [45]
+(./revisedsections/SolvingPhysicsWithFundamentalTheorem.tex) [46]
 (./revisedsections/Endnotes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-) [46] (./revisedMain.aux) ) 
+) [47] (./revisedMain.aux) ) 
 Here is how much of TeX's memory you used:
- 28826 strings out of 493089
- 683962 string characters out of 6134842
- 1911075 words of memory out of 5000000
- 31677 multiletter control sequences out of 15000+600000
+ 28822 strings out of 493089
+ 684094 string characters out of 6134842
+ 1911109 words of memory out of 5000000
+ 31665 multiletter control sequences out of 15000+600000
  9704 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,17n,103p,2129b,6853s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,17n,103p,2129b,6853s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips
 /cm-super/cm-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
@@ -1382,10 +1390,10 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on revisedMain.pdf (46 pages, 378205 bytes).
+Output written on revisedMain.pdf (47 pages, 379750 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

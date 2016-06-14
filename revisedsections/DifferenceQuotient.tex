@@ -3,16 +3,5 @@
 	\paragraph{The Slope of a Secant Line} The slope of a secant line through a point $x$ and another point $h$ units away will be the rise ($\triangle y$) divided by the run ($\triangle x$). Plugging in for the points $(x,f(x))$ and $(x+h,f(x+h))$, we get $$\frac{f(x+h)-f(x)}{x+h-x}$$which solves to$$\frac{f(x+h)-f(x)}{h}$$
 	\subsection{The Derivative}
 	\par The derivative is a tool that can find the slope of a tangent line at (almost) any point on a graph. While we can't find the slope between one point and itself because there is no difference, we can find the slope between some point and another that is \textbf{really} close to that point. We can minimize the difference between these two points by using a limit! We will find the difference between a point and a point whose position is almost zero units away: $$\lim_{h\to 0} \frac{f(x+h)-f(x)}{h}$$ This is the derivative! If you were to plug in 0 for $h$ immediately, you would divide by zero. Therefore, you must use the reduction technique for solving equations of this type. The derivative is often abbreviated $\displaystyle\frac{d}{dt} f(t)$ with respect to some variable $t$ and some function $f$; or simply $f'(x)$. If you take $n$ more derivatives of the same function past the first one, we call it the $n^{th}$ order derivative. Derivatives beyond the first order are labeled $\displaystyle\frac{d^2}{dt^2} f(t)$ or $f''(t)$ for the second order; $\displaystyle\frac{d^3}{dt^3} f(t)$ or $f'''(t)$ for the third order; etc. We say the derivative is taken ``with respect to'' something else. In a pretty standard Calculus case, the objective is to find the change in  \textit{y with respect to x}. We use the notation to describe this relationship as $\displaystyle\frac{dy}{dx}$. Extending this, the second order derivative of \textit{y with respect to x} is denoted $\displaystyle\frac{d^2y}{dx^2}$. When the derivative of a variable is taken with respect to itself, i.e. $\displaystyle\frac{dx}{dx}$, we do not write it as it is equal to 1.
-	\paragraph {Example} For $f(x)=x^2$, the derivative is:
-	\begin{equation}
-	\begin{split}
-	&= \lim_{h\to 0} \frac{(x+h)^2-x^2}{h} \\
-	&= \lim_{h\to 0} \frac{x^2+2xh+h^2-x^2}{h} \\
-	&= \lim_{h\to 0} \frac{2xh+h^2}{h} \\
-	&= \lim_{h\to 0} 2x+h \\
-	&= 2x+0 \\
-	&= 2x
-	\end{split}
-	\end{equation}
-	So for any point $x$ on the graph of $f(x)=x^2$, the slope of the tangent line will be $y=2x$.
+	\newline
 \end{document}

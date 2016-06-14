@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUN 2016 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUN 2016 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**DirectlyCalculatingLImits.tex
-(./DirectlyCalculatingLImits.tex
+**DirectlyCalculatingLimits.tex
+(./DirectlyCalculatingLimits.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -1182,8 +1182,8 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-)) (./DirectlyCalculatingLImits.aux)
-\openout1 = `DirectlyCalculatingLImits.aux'.
+)) (./DirectlyCalculatingLimits.aux)
+\openout1 = `DirectlyCalculatingLimits.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -1281,7 +1281,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map}] [2] [3] [4] [5] (./DirectlyCalculatingLImits.aux) ) 
+map/pdftex.map}] [2] [3] [4] [5] (./DirectlyCalculatingLimits.aux) ) 
 Here is how much of TeX's memory you used:
  27107 strings out of 493089
  646468 string characters out of 6134842
@@ -1303,7 +1303,7 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on DirectlyCalculatingLImits.pdf (5 pages, 130180 bytes).
+Output written on DirectlyCalculatingLimits.pdf (5 pages, 130180 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
