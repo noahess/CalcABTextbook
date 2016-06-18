@@ -1,5 +1,30 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-\paragraph{Example 1:} Find the derivative of \(f(x)=\sqrt{x^3}\)\\This can be rewritten as \[f(x)=x^1.5\] which fits into derivative form #2:
-\begin{equation}\begin{split}f(x)&=x^1.5\\f'(x)&=1.5*x^{1.5-1} \frac{dx}{dx}\\f'(x)&=1.5x^.5\\f'(x)&=\sqrt{x}\\\end{split}\end{equation}
+\paragraph{Example 1:} Find the derivative of \(f(x)=\sqrt{x^3}\)\\This can be rewritten as \[f(x)=x^{1.5}\] which fits into derivative form \#2:
+\begin{equation}\begin{split}f(x)&=x^{1.5}\\f'(x)&=1.5*x^{1.5-1} \frac{dx}{dx}\\f'(x)&=1.5x^{.5}\\f'(x)&=1.5\sqrt{x}\\\end{split}\end{equation}
+\paragraph{Example 2:} Find the derivative of \(f(x)=\ln(x^2+2x+1)\)\\This can be rewritten using rules of logarithms as:
+\begin{equation}
+	\begin{split}f(x)&=\ln(x^2+2x+1)\\f(x)&=\ln\left( (x+1)^2 \right)\\f(x)&=2\ln(x+1)\\f'(x)&=2*\frac{1}{x+1}\frac{dx}{dx}\\f'(x)&=\frac{2}{x+1}\\\end{split}
+\end{equation}
+\paragraph{Example 3:} Find the derivative of \(f(x)=\sin\left(\displaystyle\frac{\cos(x)}{x^2+1}\right)\)\\This will require the chain rule (twice) and the product rule. First, let's do the chain rule:
+\begin{equation}
+	\begin{split}
+	f(x)=&\sin\left(\frac{\cos(x)}{x^2+1}\right)\\
+	&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\frac{d}{dx}\left(\frac{\cos(x)}{x^2+1}\right)\\
+	\end{split}
+\end{equation}
+Now we have to find the still unfinished part:
+\begin{equation}
+	\begin{split}
+	&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\frac{d}{dx}\left(\frac{\cos(x)}{x^2+1}\right)\\
+	&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\frac{d}{dx}\left(\cos(x)(x^2+1)^{-1}\right)\\
+	&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\left(\cos(x)*\frac{d}{dx}\left((x^2+1)^{-1}\right)+(-\sin(x))*(x^2+1)^{-1}\right)\\
+	&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\left(\cos(x)*-(x^2+1)^{-2}*2x)-\sin(x)*(x^2+1)^{-1}\right)\\
+	&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\left(\frac{2x\cos(x)}{(x^2+1)^2}-\frac{\sin(x)}{x^2+1}\right)\\
+	&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\left(\frac{2x\cos(x)}{(x^2+1)^2}-\frac{\sin(x)(x^2+1)}{(x^2+1)^2}\right)\\
+	&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\left(\frac{2x\cos(x)-\sin(x)(x^2+1)}{(x^2+1)^2}\right)\\
+	f'(x)=&\cos\left(\frac{\cos(x)}{x^2+1}\right)*\frac{2x\cos(x)-\sin(x)(x^2+1)}{(x^2+1)^2}\\
+	\end{split}
+\end{equation}
+It's not pretty but Calculus rarely is.\\
 \end{document}
