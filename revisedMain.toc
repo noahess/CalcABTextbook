@@ -19,48 +19,51 @@
 \contentsline {subsection}{\numberline {2.1}The Difference Quotient}{18}
 \contentsline {paragraph}{The Slope of a Secant Line}{18}
 \contentsline {subsection}{\numberline {2.2}The Derivative}{18}
-\contentsline {paragraph}{Example}{20}
-\contentsline {subsection}{\numberline {2.3}Estimating Derivatives}{22}
-\contentsline {subsection}{\numberline {2.4}Rules of Derivatives}{22}
-\contentsline {subsection}{\numberline {2.5}Special Rules}{23}
-\contentsline {paragraph}{The Product Rule}{23}
-\contentsline {paragraph}{The Quotient Rule}{23}
-\contentsline {paragraph}{The Chain Rule}{24}
-\contentsline {paragraph}{Example 1:}{25}
-\contentsline {paragraph}{Example 2:}{25}
-\contentsline {paragraph}{Example 3:}{25}
-\contentsline {subsection}{\numberline {2.6}Implicit Differentiation}{28}
-\contentsline {subsection}{\numberline {2.7}Maxima and Minima}{29}
-\contentsline {paragraph}{I lied.}{29}
-\contentsline {subsection}{\numberline {2.8}Concavity}{31}
-\contentsline {subsection}{\numberline {2.9}Graphical Relations}{32}
-\contentsline {subsection}{\numberline {2.10}Relationship with Continuity}{33}
-\contentsline {section}{\numberline {3}Applications of Derivatives}{34}
-\contentsline {subsection}{\numberline {3.1}Units}{34}
-\contentsline {subsection}{\numberline {3.2}Instantaneous Rate of Change}{34}
-\contentsline {subsection}{\numberline {3.3}Tangent Line Approximations}{34}
-\contentsline {subsection}{\numberline {3.4}Physics}{35}
-\contentsline {subsection}{\numberline {3.5}Related Rates}{35}
-\contentsline {subsection}{\numberline {3.6}Optimization}{36}
-\contentsline {subsection}{\numberline {3.7}Differential Equations}{36}
-\contentsline {subsection}{\numberline {3.8}Slope Fields}{37}
-\contentsline {subsection}{\numberline {3.9}Mean Value Theorem}{38}
-\contentsline {subsection}{\numberline {3.10}L'h\^{o}pital's Rule}{38}
-\contentsline {section}{\numberline {4}Antiderivatives and Definite Integrals}{39}
-\contentsline {subsection}{\numberline {4.1}Antiderivatives}{39}
-\contentsline {subsection}{\numberline {4.2}Riemann Sums}{39}
-\contentsline {subsection}{\numberline {4.3}Limits of Riemann Sums}{42}
-\contentsline {subsection}{\numberline {4.4}Rules of Integrals}{43}
-\contentsline {subsection}{\numberline {4.5}Average Value}{44}
-\contentsline {subsection}{\numberline {4.6}Integrals Generating Functions}{44}
-\contentsline {subsection}{\numberline {4.7}Calculating Area}{44}
-\contentsline {subsection}{\numberline {4.8}Disc Method}{45}
-\contentsline {subsection}{\numberline {4.9}Shell Method}{47}
-\contentsline {section}{\numberline {5}The Fundamental Theorem}{48}
-\contentsline {subsection}{\numberline {5.1}Introduction}{48}
-\contentsline {subsection}{\numberline {5.2}Consequences}{48}
-\contentsline {section}{\numberline {6}Applications of the Funadamental Theorem}{49}
-\contentsline {subsection}{\numberline {6.1}Differential Equations}{49}
-\contentsline {subsection}{\numberline {6.2}Accumulation and Net Change}{49}
-\contentsline {subsection}{\numberline {6.3}Physics}{50}
-\contentsline {section}{\numberline {7}Endnotes}{51}
+\contentsline {paragraph}{Example 1:}{20}
+\contentsline {paragraph}{Example 2:}{20}
+\contentsline {paragraph}{Example 3:}{20}
+\contentsline {subsection}{\numberline {2.3}Estimating Derivatives}{23}
+\contentsline {subsection}{\numberline {2.4}Rules of Derivatives}{23}
+\contentsline {subsection}{\numberline {2.5}Special Rules}{24}
+\contentsline {paragraph}{The Product Rule}{24}
+\contentsline {paragraph}{The Quotient Rule}{24}
+\contentsline {paragraph}{The Chain Rule}{25}
+\contentsline {paragraph}{Example 1:}{26}
+\contentsline {paragraph}{Example 2:}{26}
+\contentsline {paragraph}{Example 3:}{26}
+\contentsline {subsection}{\numberline {2.6}Implicit Differentiation}{29}
+\contentsline {subsection}{\numberline {2.7}Maxima and Minima}{30}
+\contentsline {paragraph}{I lied.}{30}
+\contentsline {subsection}{\numberline {2.8}Concavity}{32}
+\contentsline {subsection}{\numberline {2.9}Graphical Relations}{33}
+\contentsline {subsection}{\numberline {2.10}Relationship with Continuity}{34}
+\contentsline {section}{\numberline {3}Applications of Derivatives}{35}
+\contentsline {subsection}{\numberline {3.1}Units}{35}
+\contentsline {subsection}{\numberline {3.2}Instantaneous Rate of Change}{35}
+\contentsline {subsection}{\numberline {3.3}Tangent Line Approximations}{35}
+\contentsline {subsection}{\numberline {3.4}Physics}{36}
+\contentsline {subsection}{\numberline {3.5}Related Rates}{36}
+\contentsline {subsection}{\numberline {3.6}Optimization}{37}
+\contentsline {subsection}{\numberline {3.7}Differential Equations}{37}
+\contentsline {subsection}{\numberline {3.8}Slope Fields}{38}
+\contentsline {subsection}{\numberline {3.9}Mean Value Theorem}{39}
+\contentsline {subsection}{\numberline {3.10}L'h\^{o}pital's Rule}{39}
+\contentsline {section}{\numberline {4}Antiderivatives and Definite Integrals}{40}
+\contentsline {subsection}{\numberline {4.1}Antiderivatives}{40}
+\contentsline {subsection}{\numberline {4.2}Riemann Sums}{40}
+\contentsline {subsection}{\numberline {4.3}Limits of Riemann Sums}{43}
+\contentsline {subsection}{\numberline {4.4}Rules of Integrals}{44}
+\contentsline {subsection}{\numberline {4.5}Average Value}{45}
+\contentsline {subsection}{\numberline {4.6}Integrals Generating Functions}{45}
+\contentsline {subsection}{\numberline {4.7}Calculating Area}{45}
+\contentsline {subsection}{\numberline {4.8}Disc Method}{46}
+\contentsline {subsection}{\numberline {4.9}Shell Method}{48}
+\contentsline {section}{\numberline {5}The Fundamental Theorem}{49}
+\contentsline {subsection}{\numberline {5.1}Introduction}{49}
+\contentsline {subsection}{\numberline {5.2}Consequences}{49}
+\contentsline {section}{\numberline {6}Applications of the Funadamental Theorem}{50}
+\contentsline {subsection}{\numberline {6.1}Differential Equations}{50}
+\contentsline {subsection}{\numberline {6.2}Accumulation and Net Change}{50}
+\contentsline {subsection}{\numberline {6.3}Physics}{51}
+\contentsline {section}{\numberline {7}Tips on the Course and AP Test}{52}
+\contentsline {section}{\numberline {8}Endnotes}{53}

@@ -1,6 +1,17 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	\paragraph {Example} For $f(x)=x^2$, the derivative is:
+	\paragraph{Example 1:} We already know how to find the slope of a linear equation. We can prove the difference quotient gives the slope for any linear equation. The general slope-intercept form for linear equations is \(f(x)=mx+b\) where \(m\) is the slope and \(b\) is the y-intercept. 
+	\begin{equation}
+		\begin{split}
+		m&\stackrel{?}{=} \lim_{h\to 0}\frac{(m(x+h)+b)-(mx+b)}{h}\\
+		m&\stackrel{?}{=} \lim_{h\to 0}\frac{mx+mh+b-mx-b}{h}\\
+		m&\stackrel{?}{=} \lim_{h\to 0}\frac{mh}{h}\\
+		m&\stackrel{?}{=} \lim_{h\to 0}m\\
+		m&=m\\
+		&\checkmark\\
+	\end{split}
+	\end{equation}
+	\paragraph{Example 2:} For $f(x)=x^2$, the derivative is:
 	\begin{equation}
 	\begin{split}
 	&= \lim_{h\to 0} \frac{(x+h)^2-x^2}{h} \\
@@ -11,5 +22,14 @@
 	&= 2x
 	\end{split}
 	\end{equation}
-	So for any point $x$ on the graph of $f(x)=x^2$, the slope of the tangent line will be $y=2x$. Be familiar with the limit of the difference quotient as the definition of the derivative. You will prove more of these in the exercises but the math required is pre-Calculus\footnote{All math before Calculus will be referred to as pre-Calculus in this textbook} and generally unneccesary in the understanding of Calculus.\\
+	So for any point $x$ on the graph of $f(x)=x^2$, the slope of the tangent line will be $\frac{\Delta y}{\Delta x}=2x$. Be familiar with the limit of the difference quotient as the definition of the derivative. You will prove more of these in the exercises but the math required is pre-Calculus\footnote{All math before Calculus will be referred to as pre-Calculus in this textbook} and generally unneccesary in the understanding of Calculus.\\
+	\paragraph{Example 3:} Working off of the previous problem, we can calculate the slope of the tangent line at any point on the graph. For example, the slope at the point (3.5,12.25) is:
+	\begin{equation}
+		\begin{split}
+		\frac{\Delta y}{\Delta x}&=2x\\
+		\frac{\Delta y}{\Delta x}&=2(3.5)\\
+		\frac{\Delta y}{\Delta x}&=7\\
+		\end{split}
+	\end{equation}
+	Knowing the slope, we can calculate the equation itself. In Calculus, it is often the easiest when finding a tangent line equation to use the point-slope form of a line which is: \[(y-y_0)=m(x-x_0)\] where \(m\) is the slope at a point \((x_0,y_0)\). The tangent line to the graph of \(f(x)=x^2\) at the point (3.5,12.5) is therefore \[y-12.25=7(x-3.5)\] or \[y=7(x-3.5)+12.25\] See the Tips about the AP Test section for more information.\\
 \end{document}

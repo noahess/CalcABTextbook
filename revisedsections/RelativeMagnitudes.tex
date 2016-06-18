@@ -1,6 +1,6 @@
 \documentclass[../revisedMain.tex]{subfiles}
 \begin{document}
-	    It is beneficial in some cases to calculate the limit at $\infty$ for some functions. Obviously, in some cases, the limit itself doesn't exist because it is $\infty$. For example: $$\lim_{x\to\infty} x^2 = \infty$$ In other cases, the limit is 0. For example: $$\lim_{x\to\infty} \frac{1}{x}=0$$
+	    It is beneficial in some cases to calculate the limit at $\infty$ for some functions. Obviously, in some cases, the limit doesn't exist because it itself is $\infty$. For example: $$\lim_{x\to\infty} x^2 = \infty$$ In other cases, the limit is 0. For example: $$\lim_{x\to\infty} \frac{1}{x}=0$$
 	    Sometimes it is not so obvious. For fractions, we can compare the rates of increase of functions (or their magnitude) of their numerator and denominator. If the denominator has a greater magnitude, it will become larger faster than the numerator. Therefore, the limit will be zero. If the numerator has a larger magnitude, it will increase faster and the limit will be $\infty$. 
 	    \begin{center}
 	    \begin{tikzpicture}
@@ -12,6 +12,6 @@
 	    			\end{semilogyaxis}
 	    \end{tikzpicture}
 	    \newline
-	    Functions like $x^5$ will always increase slower than functions like $2^x$ towards $\infty$.
+	    Functions like $x^5$ will always increase slower than functions like $2^x$ towards $\infty$, therefore: \[\lim_{x\to\infty}\frac{x^5}{2^x}=0\]
 	\end{center}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUN 2016 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUN 2016 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1181,25 +1181,25 @@ Package csquotes Info: ... none found.
  (./revisedMain.aux)
 \openout1 = `revisedMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 45.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
 
 ABD: EveryShipout initializing macros
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1277,8 +1277,17 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map}] (./revisedsections/Introduction.tex) [2] (./revisedMain.toc
-[3])
+map/pdftex.map}] (./revisedsections/Introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+) [2] (./revisedMain.toc [3])
 \tf@toc=\write4
 \openout4 = `revisedMain.toc'.
 
@@ -1288,7 +1297,7 @@ map/pdftex.map}] (./revisedsections/Introduction.tex) [2] (./revisedMain.toc
 (./revisedwalkthroughs/DirectlyCalculatingLimits.tex [12]) [13]
 (./revisedproblems/DirectlyCalculatingLimits.tex) [14]
 (./revisedsections/SqueezeTheorem.tex)
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 17--59
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 17--60
  [] 
  []
 
@@ -1304,37 +1313,45 @@ NOTE: coordinate (0Y0.0e0],0Y0.0e0]) has been dropped because it is unbounded (
 in x). (see also unbounded coords=jump). 
 ) [17] (./revisedsections/IntroToDerivatives.tex)
 (./revisedsections/DifferenceQuotient.tex [18]) [19]
-(./revisedwalkthroughs/DifferenceQuotient.tex) [20]
-(./revisedproblems/DifferenceQuotient.tex) [21]
+(./revisedwalkthroughs/DifferenceQuotient.tex
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+Overfull \vbox (2.10332pt too high) has occurred while \output is active []
+
+
+[20]) [21] (./revisedproblems/DifferenceQuotient.tex) [22]
 (./revisedsections/EstimatingDerivatives.tex)
-(./revisedsections/DerivativeRules.tex [22] [23])
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 40--64
+(./revisedsections/DerivativeRules.tex [23] [24])
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 40--65
  [] 
  []
 
-[24] (./revisedwalkthroughs/DerivativeRules.tex [25]) [26]
-(./revisedproblems/DerivativeRules.tex) [27]
-(./revisedsections/ImplicitDifferentiation.tex) [28]
-(./revisedsections/MaxAndMin.tex [29]) (./revisedsections/Concavity.tex
-[30]) (./revisedsections/DerivativeGraphs.tex [31]) [32]
-(./revisedsections/DerivativesAndContinuity.tex) [33]
+[25] (./revisedwalkthroughs/DerivativeRules.tex [26]) [27]
+(./revisedproblems/DerivativeRules.tex) [28]
+(./revisedsections/ImplicitDifferentiation.tex) [29]
+(./revisedsections/MaxAndMin.tex [30]) (./revisedsections/Concavity.tex
+[31]) (./revisedsections/DerivativeGraphs.tex [32]) [33]
+(./revisedsections/DerivativesAndContinuity.tex) [34]
 (./revisedsections/DerivativeUnits.tex)
 (./revisedsections/InstantaneousRateOfChange.tex)
-(./revisedsections/TangentLineApproximations.tex [34])
+(./revisedsections/TangentLineApproximations.tex [35])
 (./revisedsections/DerivativePhysics.tex)
-(./revisedsections/DerivativeRelatedRates.tex [35])
+(./revisedsections/DerivativeRelatedRates.tex [36])
 (./revisedsections/Optimization.tex)
-(./revisedsections/DifferentialEquations.tex [36])
+(./revisedsections/DifferentialEquations.tex [37])
 (./revisedsections/SlopeFields.tex
 
 Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
 ng it (it is [0.0:0.0]) on input line 9.
 
  [warning /pgfplots/warning/approx empty range enlarged]
-) [37] (./revisedsections/MeanValueTheorem.tex)
-(./revisedsections/LhospitalsRule.tex) [38]
+) [38] (./revisedsections/MeanValueTheorem.tex)
+(./revisedsections/LhospitalsRule.tex) [39]
 (./revisedsections/Antiderivatives.tex) (./revisedsections/RiemannSums.tex
-[39] [40] [41]
+[40] [41] [42]
 Overfull \hbox (37.20444pt too wide) detected at line 63
 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c\OT1/cm
 r/m/n/10 ) + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c \OT1/cmr/m/n
@@ -1349,36 +1366,36 @@ Overfull \hbox (25.14917pt too wide) detected at line 63
 \OT1/cmr/m/n/10 = [] []
  []
 
-) (./revisedsections/LimitsOfRiemannSums.tex [42])
+) (./revisedsections/LimitsOfRiemannSums.tex [43])
 (./revisedsections/RulesOfIntegrals.tex) (./revisedsections/AverageValue.tex
 Overfull \hbox (19.08008pt too wide) in paragraph at lines 3--3
 \OT1/cmr/m/n/10 points $\OML/cmm/m/it/10 a$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/
 10 b$\OT1/cmr/m/n/10 . The arith-metic mean (av-er-age) of any-thing is $[]$.
  []
 
-[43]) (./revisedsections/IntegralsGeneratingFunctions.tex)
+[44]) (./revisedsections/IntegralsGeneratingFunctions.tex)
 (./revisedsections/CalculatingArea.tex) (./revisedsections/DiscMethod.tex
-[44] [45]) (./revisedsections/WasherMethod.tex [46]
+[45] [46]) (./revisedsections/WasherMethod.tex [47]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-) [47] (./revisedsections/FundamentalTheoremIntroduction.tex)
-(./revisedsections/FunadamentalTheoremConsequences.tex) [48]
+) [48] (./revisedsections/FundamentalTheoremIntroduction.tex)
+(./revisedsections/FunadamentalTheoremConsequences.tex) [49]
 (./revisedsections/SolvingDifferentialEquations.tex)
-(./revisedsections/AccumulationAndNetChange.tex) [49]
-(./revisedsections/SolvingPhysicsWithFundamentalTheorem.tex) [50]
-(./revisedsections/Endnotes.tex
+(./revisedsections/AccumulationAndNetChange.tex) [50]
+(./revisedsections/SolvingPhysicsWithFundamentalTheorem.tex) [51]
+(./revisedsections/TipsOnTheApTest.tex) [52] (./revisedsections/Endnotes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-) [51] (./revisedMain.aux) ) 
+) [53] (./revisedMain.aux) ) 
 Here is how much of TeX's memory you used:
- 28828 strings out of 493089
- 684270 string characters out of 6134842
- 1911109 words of memory out of 5000000
- 31666 multiletter control sequences out of 15000+600000
+ 28838 strings out of 493089
+ 684469 string characters out of 6134842
+ 1912175 words of memory out of 5000000
+ 31673 multiletter control sequences out of 15000+600000
  10063 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,17n,103p,2129b,6853s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1401,10 +1418,10 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on revisedMain.pdf (51 pages, 391779 bytes).
+Output written on revisedMain.pdf (53 pages, 397963 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 252 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

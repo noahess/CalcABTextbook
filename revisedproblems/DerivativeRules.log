@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUN 2016 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUN 2016 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,10 +1283,10 @@ Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/upd
 map/pdftex.map}] (./DerivativeRules.aux) ) 
 Here is how much of TeX's memory you used:
- 26559 strings out of 493089
- 630597 string characters out of 6134842
- 833772 words of memory out of 5000000
- 29546 multiletter control sequences out of 15000+600000
+ 26560 strings out of 493089
+ 630606 string characters out of 6134842
+ 833838 words of memory out of 5000000
+ 29547 multiletter control sequences out of 15000+600000
  4700 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,5n,85p,772b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1300,7 +1300,7 @@ e1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy7.pfb>
-Output written on DerivativeRules.pdf (1 page, 78745 bytes).
+Output written on DerivativeRules.pdf (1 page, 78739 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
