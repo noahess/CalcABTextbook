@@ -1,43 +1,49 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	 For any graph, the local minima and maxima will occur when the graph levels off. To put this in Calculus words, the derivative at the point must be 0 because the tangent line is horizontal.
-	 \begin{center}
-	 	\begin{tikzpicture}
-	 	\begin{axis}[restrict y to domain=-4:4,]
-	 	\addplot[domain=-2:2,purple,samples=50]{3*x*(x-1)*(x+1)};
-	 	\addplot[domain=-1:0,purple,dashed]{1.17};
-	 	\addplot[domain=0:1,purple,dashed]{-1.17};
-	 	\end{axis}
-	 	\end{tikzpicture}
-	 	\newline This graph has local maxima and minima where the tangent line is horizontal.
-	 \end{center} 
-	 Armed with the knowledge of the derivative, we can exactly calculate at what point(s) any function has a local maximum or minimum. It is actually very simple, all one has to do is to find at what points the derivative is 0. We call this \textit{The First Derivative Test}. The first derivative test gives us \textit{critical numbers}. For example, let's find the points at which $f(x)=\displaystyle\frac{x^3}{3}-x$ has a local maximum or mimimum:
-	 \begin{equation}
-	 \begin{split}
-	 f'(x)&=3\frac{x^2}{3}-x^0 \\
-	 f'(x)&=x^2-1 \\
-	 0 &= x^2-1 \\
-	 0 &= (x-1)(x+1) \\
-	 x&=\pm 1
-	 \end{split}
-	 \end{equation}
-	 \paragraph{I lied.} When the derivative is zero, all it means is the line tangent to the graph is horizontal. For example, the graph of $f(x)=x^3$ has a horizontal tangent when $x=0$:
-	 \begin{center}
-	 	\begin{tikzpicture}
-	 	\begin{axis}[restrict y to domain=-8:8,]
-	 	\addplot[domain=-2:2,green,samples=50]{x^3};
-	 	\addplot[domain=-2:2,green,dashed]{0};
-	 	\end{axis}
-	 	\end{tikzpicture}
-	 \end{center} 
-	 There must be some way to verify if the critical numbers we get from the first derivative test are truly maxima and minima, right? Yes! If we look at the graph of $f(x)=x^3$ above, we can tell that the tangent line has a positive slope moving towards $x=0$ and also moving away. In calculus-speak: the first order derivative does not change signs from positive to negative. If we look at the graph of $f(x)=x^2$, we can see that the slope of the tangent is negative moving towards $x=0$ and positive moving away. This means the first order derivative changes signs. This makes logical sense because for a function to have a local mimimum, it must decrease, hit the lowest point, and increase. We can flip this around, too: for a function to have a local maximum, it must increase, hit the highest point, and come down again. The first order derivative (the slope of the tangent line) must change signs. If it changes from positive to negative, there is a local maximum. If it changes from negative to positive, there is a local mimimum. We can write up this in a table where we have the intervals from the beginning of the values we are checking to the first critical number, then from the first to second critical number, second to third critical number,$\cdots$, and from the last critical number to the end of the values we are testing. ``Values we are testing'' means the ends of the interval we are working with. Normally the ends are $-\infty$ and $\infty$, but sometimes you might be constrained to [0,5] or something similar. For example, to find the relative minima and maxima of the function whose derivative is $f'(x)=(x-1)(x+1)$, this is the table one would create:
-	 \begin{center}
-	 	\begin{tabular}{ |c|c|c|c|c| } 
-	 		\hline
-	 		(-$\infty$, -1) &-1 & (-1, 1) &1 &(1, $\infty$) \\ \hline
-	 		+ & 0 & - &0 &+ \\
-	 		\hline
-	 	\end{tabular}
-	 \end{center}
-	 ...and this is the true first derivative test. Because it changes signs from positive to negative at $x=-1$, that point is a local maximum, and because it changes from negative to positive at $x=1$, that must be a local minimum.
+	\paragraph{Example 1:}Find the relative maxima and minima of the function \\\(f(x)=x^4-x^3-8x^2+12x+3\). Since we have no bounds, we will evaluate this over $(-\infty,\infty)$
+	\begin{equation}
+		\begin{split}
+		f(x)&=x^4-x^3-8x^2+12x+3\\
+		f'(x)&=4x^3-3x^2-16x+12\\
+		f'(x)&=(4x-3)(x^2)-(4x-3)(4)\\
+		f'(x)&=(4x-3)(x^2-4)\\
+		f'(x)&=(4x-3)(x-2)(x+2)\\		
+		f'(x)&\text{ must be zero at }x=\frac{3}{4},\pm 2\\
+		\end{split}
+	\end{equation}
+	\begin{center}
+		Writing out our first derivative test table, we get:\\\vspace{0.25in}
+	\begin{tabular}{ |c|c|c|c|c|c|c| } 
+		\hline
+		(-$\infty$, -2) &-2 & (-2, 0.75) &0.75 &(0.75,2)&2&(2, $\infty$) \\ \hline
+		-&0&+&0&-&0&+ \\
+		\hline
+	\end{tabular}\\\vspace{.25in}
+	Because when $x=\pm2$ the derivative changes signs from negative to positive, we know that these two points are relative minimums. Because at $x=0.75$ the derivative changes signs from positive to negative, we know that it is a local maximum. Sure enough, here is the graph for $f(x)$:
+	\begin{tikzpicture}
+		\begin{axis}[domain=-4:4,axis lines=middle]
+		\addplot[domain=-4:4,color=purple,samples=40]{x^4-x^3-8*x^2+12*x+3};
+		\addplot[mark=*,color=purple] coordinates{(-2,-29)};
+		\addplot[mark=*, color=purple] coordinates{(0.75,7.4)};
+		\addplot[mark=*, color=purple] coordinates{(2,3)};
+		\end{axis}
+	\end{tikzpicture}
+	\end{center}
+	\paragraph{Example 2:}Find the absolute maximum and minimum of the function\\\(f(x)=\sin(\pi x)\) over the interval [0,0.75]
+	\begin{equation}
+		\begin{split}
+		f(x)&=\sin(\pi x)\\
+		f'(x)&=\pi\cos(\pi x)\\
+		0&=\pi\cos(\pi x)\quad \{0\le x\le 0.75\}\\
+		x&=0.5\\
+		\end{split}
+	\end{equation}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+		\hline
+		[0,0.5)&0.5&(0.5,0.75]\\\hline
+		+&0&-\\\hline
+	\end{tabular}
+	\end{center}\vspace{.25in}
+	So $x=0.5$ must be an absolute maximum. However, we are also constrained to an interval, so we must check the bounds as well:\[f(0)=0\]\[f(0.5)=1\]\[f(0.75)=\displaystyle\frac{\sqrt{2}}{2}\]From this, we can see that $x=0.5$ is indeed our absolute maximum but $x=0$ is our absolute minimum on this interval as well.\\
 \end{document}

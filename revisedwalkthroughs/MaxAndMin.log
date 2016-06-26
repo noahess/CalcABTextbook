@@ -1,12 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.5.18)  26 JUN 2016 03:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.5.18)  26 JUN 2016 03:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./revisedMain.tex
-(./revisedMain.tex
+**./MaxAndMin.tex
+(./MaxAndMin.tex
 LaTeX2e <2016/03/31>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
+(c:/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(c:/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../revisedmain.tex'
+(../revisedmain.tex (c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (c:/texlive/2015/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -25,8 +34,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (c:/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -339,13 +348,7 @@ Now handling font encoding U ...
 ))
 (c:/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(c:/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks16
-\verbatim@line=\toks17
-\verbatim@in@stream=\read1
-))
+)
 (c:/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
@@ -1237,28 +1240,28 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./revisedMain.aux)
-\openout1 = `revisedMain.aux'.
+)) (./MaxAndMin.aux)
+\openout1 = `MaxAndMin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 2.
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    ... okay on input line 2.
 
 ABD: EveryShipout initializing macros
 (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1340,159 +1343,25 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdft
-ex.map}] (./revisedsections/Introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-) [2] (./revisedMain.toc [3])
-\tf@toc=\write4
-\openout4 = `revisedMain.toc'.
-
- [4] (./revisedsections/IntroToLimits.tex)
-(./revisedsections/TypesOfLimits.tex [5]) [6]
-(./revisedsections/DirectlyCalculatingLimits.tex [7] [8] [9] [10]) [11]
-(./revisedwalkthroughs/DirectlyCalculatingLimits.tex [12]) [13]
-(./revisedproblems/DirectlyCalculatingLimits.tex) [14]
-(./revisedsections/SqueezeTheorem.tex)
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 17--60
- [] 
- []
-
-[15] (./revisedwalkthroughs/SqueezeTheorem.tex) [16]
-(./revisedproblems/SqueezeTheorem.tex)
-(./revisedsections/RelativeMagnitudes.tex
-Package pgfplots info on input line 7: Using 'lua backend=false' for axis: ymod
-e=log unsupported (yet).
-
-NOTE: coordinate (0Y0.0e0],1Y1.0e0]) has been dropped because it is unbounded (
-in x). (see also unbounded coords=jump). 
-NOTE: coordinate (0Y0.0e0],0Y0.0e0]) has been dropped because it is unbounded (
-in x). (see also unbounded coords=jump). 
-) [17] (./revisedsections/IntroToDerivatives.tex)
-(./revisedsections/DifferenceQuotient.tex [18]) [19]
-(./revisedwalkthroughs/DifferenceQuotient.tex
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
-
- []
-
-
-Overfull \vbox (2.10332pt too high) has occurred while \output is active []
-
-
-[20]) [21] (./revisedproblems/DifferenceQuotient.tex) [22]
-(./revisedsections/EstimatingDerivatives.tex)
-(./revisedsections/DerivativeRules.tex [23] [24])
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 40--65
- [] 
- []
-
-[25] (./revisedwalkthroughs/DerivativeRules.tex [26]) [27]
-(./revisedproblems/DerivativeRules.tex) [28]
-(./revisedsections/ImplicitDifferentiation.tex) [29]
-(./revisedwalkthroughs/ImplicitDifferentiation.tex) [30]
-(./revisedproblems/ImplicitDifferentiation.tex) [31]
-(./revisedsections/MaxAndMin.tex [32]) [33] [34]
-(./revisedwalkthroughs/MaxAndMin.tex [35]) [36]
-(./revisedproblems/MaxAndMin.tex) [37] (./revisedsections/Concavity.tex)
-(./revisedsections/DerivativeGraphs.tex [38]) [39]
-(./revisedsections/DerivativesAndContinuity.tex) [40]
-(./revisedsections/DerivativeUnits.tex)
-(./revisedsections/InstantaneousRateOfChange.tex)
-(./revisedsections/TangentLineApproximations.tex [41])
-(./revisedsections/DerivativePhysics.tex)
-(./revisedsections/DerivativeRelatedRates.tex [42])
-(./revisedsections/Optimization.tex)
-(./revisedsections/DifferentialEquations.tex [43])
-(./revisedsections/SlopeFields.tex
-
-Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 9.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-) [44] (./revisedsections/MeanValueTheorem.tex)
-(./revisedsections/LhospitalsRule.tex) [45]
-(./revisedsections/Antiderivatives.tex) (./revisedsections/RiemannSums.tex
-[46] [47] [48]
-Overfull \hbox (37.20444pt too wide) detected at line 63
-[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c\OT1/cm
-r/m/n/10 ) + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c \OT1/cmr/m/n
-/10 + []) + [](\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ([]) + \OML/cmm/m/it/10 f\OT1/
-cmr/m/n/10 (\OML/cmm/m/it/10 c \OT1/cmr/m/n/10 + 2[]) + [] + [](\OML/cmm/m/it/1
-0 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )
- + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 )
- []
-
-
-Overfull \hbox (25.14917pt too wide) detected at line 63
-\OT1/cmr/m/n/10 = [] []
- []
-
-) (./revisedsections/LimitsOfRiemannSums.tex [49])
-(./revisedsections/RulesOfIntegrals.tex) (./revisedsections/AverageValue.tex
-Overfull \hbox (19.08008pt too wide) in paragraph at lines 3--3
-\OT1/cmr/m/n/10 points $\OML/cmm/m/it/10 a$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/
-10 b$\OT1/cmr/m/n/10 . The arith-metic mean (av-er-age) of any-thing is $[]$.
- []
-
-[50]) (./revisedsections/IntegralsGeneratingFunctions.tex)
-(./revisedsections/CalculatingArea.tex) (./revisedsections/DiscMethod.tex
-[51] [52]) (./revisedsections/WasherMethod.tex [53]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-) [54] (./revisedsections/FundamentalTheoremIntroduction.tex)
-(./revisedsections/FunadamentalTheoremConsequences.tex) [55]
-(./revisedsections/SolvingDifferentialEquations.tex)
-(./revisedsections/AccumulationAndNetChange.tex) [56]
-(./revisedsections/SolvingPhysicsWithFundamentalTheorem.tex) [57]
-(./revisedsections/TipsOnTheApTest.tex) [58] (./revisedsections/Endnotes.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--6
-
- []
-
-) [59] (./revisedMain.aux) ) 
+ex.map}] [2] (./MaxAndMin.aux) ) 
 Here is how much of TeX's memory you used:
- 29447 strings out of 493027
- 700562 string characters out of 6137678
- 1802470 words of memory out of 5000000
- 32330 multiletter control sequences out of 15000+600000
- 10063 words of font info for 36 fonts, out of 8000000 for 9000
+ 27699 strings out of 493027
+ 661658 string characters out of 6137678
+ 895297 words of memory out of 5000000
+ 30743 multiletter control sequences out of 15000+600000
+ 4402 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,17n,103p,2131b,4788s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2015/texmf-dist/fonts/enc/dvips/cm-supe
-r/cm-super-ts1.enc}<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr17.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.
-pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pf
-b>
-Output written on revisedMain.pdf (59 pages, 406710 bytes).
+ 71i,17n,89p,768b,1947s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on MaxAndMin.pdf (2 pages, 65457 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
+ 38 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
