@@ -1,19 +1,64 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	Recall that the second derivative gives the rate of change of the first derivative. Because the first derivative gives the slope of the tangent line, the second derivative will give the change in slope. If the second derivative is positive, the tangent line must be increasing and therefore moving up (counterclockwise). If the second derivative is negative, the tangent line must be decreasing and therefore moving down (clockwise). When the slope is changed, a curve is created. We use two words to quantify the curve that we see: \textbf{concave up} and \textbf{concave down}. Concave up is, as you may have guessed, when the graph is in a bucket shape facing upwards (think of the $y=x^2$ graph). Concave down is the opposite, where the graph looks more like a hat facing downwards (think of $y=-x^2)$. We also append \textit{increasing} or \textit{decreasing} to the description of the function at a point to describe the sign of the first derivative, in other words whether the points are going up or going down moving right.
-		\begin{center}
-
-			\begin{tikzpicture}
-			\begin{groupplot}[group style={group size=2 by 2}, height=6cm, width=6cm]
-			\nextgroupplot[title=Concave Up\, Increasing]
-			\addplot [blue,domain=0:2]{x^2};
-			\nextgroupplot[title=Concave Up\, Decreasing]
-			\addplot [green,domain=-2:0]{x^2};
-			\nextgroupplot[title=Concave Down\, Increasing, title style={yshift=-5.5cm}]
-			\addplot [red,domain=-2:0]{-x^2};
-			\nextgroupplot[title=Concave Down\, Decreasing, title style={yshift=-5.5cm}]
-			\addplot[orange,domain=0:2]{-x^2};
-			\end{groupplot}
-			\end{tikzpicture}
-		\end{center}
+\paragraph{Example 1:} Find when the function \(f(x)=1/4x^4+x^3-1/2x^2-3x+17\) is: Concave up increasing, concave down increasing, concave up decreasing, and concave down decreasing.
+\begin{equation}
+	\begin{split}
+	f(x)&=1/4x^4+x^3-1/2x^2-3x+17\\
+	f'(x)&=x^3+3x^2-x-3\\
+	f''(x)&=3x^2+6x-1 \\
+	\end{split}
+\end{equation}First, we will find when the first derivative is positive or negative to determine where \(f(x)\) is increasing or decreasing.
+\begin{equation}
+	\begin{split}
+	f'(x)&=x^3+3x^2-x-3\\
+	f'(x)&=x^3-x+3x^2-3\\
+	f'(x)&=x(x^2-1)+3(x^2-1)\\
+	f'(x)&=(x+3)(x^2-1)\\
+	f'(x)&=(x+3)(x-1)(x+1)\\
+	0&=(x+3)(x-1)(x+1)\\
+	x&=-3,\pm 1 \\
+	\end{split}
+\end{equation}
+\begin{center}\begin{tabular}{|c|c|c|c|}
+	\hline
+	\((-\infty ,-3)\) & \((-3,-1)\) &\((-1,1)\) & \((1,\infty)\)\\
+	\hline
+	-&+&-&+\\
+	\hline
+\end{tabular}\end{center}
+So \(f(x)\) is increasing over \((-3,-1)\) and \((1,\infty)\), and decreasing over \((-\infty,-3)\) and \((-1,1\). Now, we will find where the function is concave up and down:
+\begin{equation}
+	\begin{split}
+	f''(x)&=3x^2+6x-1\\
+	0&=3x^2+6x-1\\
+	x&=\frac{-6\pm \sqrt{6^2-4*3*-1}}{2*3}\\
+	x&=\frac{-6\pm\sqrt{48}}{6}\\
+	x&=\frac{-3\pm 2\sqrt{3}}{3}\\
+	x&\approx -2.155, 0.155 \\
+	\end{split}
+\end{equation}
+\begin{center}\begin{tabular}{|c|c|c|}
+	\hline
+	\((-\infty,-2.155)\) & \((-2.155,-0.155)\) & \((-0.155,\infty)\) \\
+	\hline
+	+&-&+\\
+	\hline
+\end{tabular}\end{center}So \(f(x)\) is concave up over \((-\infty,-2.155)\) and \((-0.155,\infty)\), and concave down over \((-2.155,-0.155)\).
+\paragraph{Example 2:}Find where \(\sin(x-\frac{\pi}{2})\) is concave up and down:
+\begin{equation}
+	\begin{split}
+	f(x)&=\sin(x-\frac{\pi}{2})\\
+	f'(x)&=\cos(x-\frac{\pi}{2})\\
+	f''(x)&=-\sin(x-\frac{\pi}{2})\\
+	\end{split}
+\end{equation}
+	\begin{tikzpicture}
+	\begin{axis}[axis lines=middle,domain=0:6.28]
+	\addplot[color=red,domain=0:6.28,samples=50]{sin(180*x/pi-90)};
+	\end{axis}
+\end{tikzpicture}\\
+\begin{center}
+	\(\small{\sin(x-1)}\)
+\end{center}
+Interestingly, the concavity is just the inverse of the function itself. Sin\((x-\frac{\pi}{2})\) is concave up when it is negative, written out mathematically: \((-\frac{\pi}{2},\frac{\pi}{2})+n*2\pi\), where \(n\) is any integer.\\
 \end{document}

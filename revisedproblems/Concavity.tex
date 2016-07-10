@@ -1,19 +1,14 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	Recall that the second derivative gives the rate of change of the first derivative. Because the first derivative gives the slope of the tangent line, the second derivative will give the change in slope. If the second derivative is positive, the tangent line must be increasing and therefore moving up (counterclockwise). If the second derivative is negative, the tangent line must be decreasing and therefore moving down (clockwise). When the slope is changed, a curve is created. We use two words to quantify the curve that we see: \textbf{concave up} and \textbf{concave down}. Concave up is, as you may have guessed, when the graph is in a bucket shape facing upwards (think of the $y=x^2$ graph). Concave down is the opposite, where the graph looks more like a hat facing downwards (think of $y=-x^2)$. We also append \textit{increasing} or \textit{decreasing} to the description of the function at a point to describe the sign of the first derivative, in other words whether the points are going up or going down moving right.
-		\begin{center}
-
-			\begin{tikzpicture}
-			\begin{groupplot}[group style={group size=2 by 2}, height=6cm, width=6cm]
-			\nextgroupplot[title=Concave Up\, Increasing]
-			\addplot [blue,domain=0:2]{x^2};
-			\nextgroupplot[title=Concave Up\, Decreasing]
-			\addplot [green,domain=-2:0]{x^2};
-			\nextgroupplot[title=Concave Down\, Increasing, title style={yshift=-5.5cm}]
-			\addplot [red,domain=-2:0]{-x^2};
-			\nextgroupplot[title=Concave Down\, Decreasing, title style={yshift=-5.5cm}]
-			\addplot[orange,domain=0:2]{-x^2};
-			\end{groupplot}
-			\end{tikzpicture}
-		\end{center}
+\begin{center}
+	{\Large Exercises:}
+\end{center}
+\begin{enumerate}
+	\item \textbf{Find where the functions are concave up and down:}
+	\begin{enumerate}
+		\item $f(x)=-1/3x^3-x^2+x$
+		\item $g(x)=\tan(x)$
+		\item $h(x)=\displaystyle\frac{(x-1)}{(x+2)(x-5)}$
+	\end{enumerate}
+\end{enumerate}
 \end{document}
