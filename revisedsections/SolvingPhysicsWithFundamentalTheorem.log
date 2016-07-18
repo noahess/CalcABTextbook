@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.6.14)  18 JUL 2016 09:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.6.14)  18 JUL 2016 09:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Concavity.tex
-(./Concavity.tex
+**./SolvingPhysicsWithFundamentalTheorem.tex
+(./SolvingPhysicsWithFundamentalTheorem.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (c:/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -1244,8 +1244,8 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-)) (./Concavity.aux)
-\openout1 = `Concavity.aux'.
+)) (./SolvingPhysicsWithFundamentalTheorem.aux)
+\openout1 = `SolvingPhysicsWithFundamentalTheorem.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -1331,7 +1331,12 @@ e
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.13} (current compat level: 1.12).
 
-[1
+<physics.png, id=4, 218.61674pt x 299.9205pt>
+File: physics.png Graphic file (type png)
+ <use physics.png>
+Package pdftex.def Info: physics.png used on input line 5.
+(pdftex.def)             Requested size: 144.54pt x 198.3005pt.
+ [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1346,44 +1351,24 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdft
-ex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 54--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-[2] (./Concavity.aux) ) 
+ex.map} <./physics.png>] (./SolvingPhysicsWithFundamentalTheorem.aux) ) 
 Here is how much of TeX's memory you used:
- 27735 strings out of 493014
- 662796 string characters out of 6137016
- 892655 words of memory out of 5000000
- 30764 multiletter control sequences out of 15000+600000
- 6677 words of font info for 25 fonts, out of 8000000 for 9000
+ 27195 strings out of 493014
+ 647409 string characters out of 6137016
+ 856718 words of memory out of 5000000
+ 30230 multiletter control sequences out of 15000+600000
+ 4094 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,16n,89p,768b,1890s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
-fb>
-Output written on Concavity.pdf (2 pages, 94989 bytes).
+ 71i,5n,85p,795b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on SolvingPhysicsWithFundamentalTheorem.pdf (1 page, 47086 bytes
+).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,13 +1,4 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-The tangent line can be used as an approximations for points near a point on a graph. Take this example of the graph $f(x)=\sqrt{x}$:
-	\begin{center}
-		\begin{tikzpicture}
-		\begin{axis}
-		\addplot[domain=2:6,red]{x^.5};
-		\addplot[domain=2:6, red, dashed]{.25*x+1};
-		\end{axis}
-		\end{tikzpicture}
-		\end{center}
-		The tangent line for $f(4)$ is $y-2=.25(x-4)$ and approximates the graph pretty well for the near area. Because $\sqrt{5}$ would be incredibly difficult to find by hand, we can use the tangent line to approximate the value. $$f(5) \approx .25(5-4)+2$$ which is 2.25. The actual value is about 2.236. The approximation worked pretty well in this case with an error of about 0.014, or less than 1\% of the actual value.
+\paragraph{Example 1:}Estimate the value of 
 \end{document}

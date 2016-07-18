@@ -6,6 +6,7 @@
 \usepackage{textcomp}
 \usepackage{csquotes}
 \usepackage{pstricks-add}
+\usepackage{graphicx}
 \mathtoolsset{showonlyrefs}
 \psset{plotpoints=200,algebraic}
 \pgfplotsset{compat=1.12}
@@ -39,7 +40,7 @@
 \date{Summer 2016}
 \newcommand{\newchapter}[2]
 {
-	\subsection{#1}\subfile{revisedsections/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\newpage\subfile{revisedwalkthroughs/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\newpage\subfile{revisedproblems/#2}\newpage
+	\subsection{#1}\subfile{revisedsections/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedwalkthroughs/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedproblems/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\vspace{.125in}
 }
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 \begin{document}
@@ -57,7 +58,8 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \section{Limits} \subfile{revisedsections/IntroToLimits}
 \subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits} 
 \newchapter{Directly Calculating Limits}{DirectlyCalculatingLimits}
-\newchapter{The Squeeze Theorem}{SqueezeTheorem}
+%\newchapter{The Squeeze Theorem}{SqueezeTheorem}
+\subsection{The Squeeze Theorem}\subfile{revisedsections/SqueezeTheorem}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedwalkthroughs/SqueezeTheorem}\noindent\rule[0.5ex]{\linewidth}{1pt}\vspace{.125in}
 \subsection{Relative Magnitudes} \subfile{revisedsections/RelativeMagnitudes}\newpage
 \section{Derivatives} \subfile{revisedsections/IntroToDerivatives}
 \newchapter{The Difference Quotient}{DifferenceQuotient}
@@ -70,14 +72,14 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \subsection{Relationship with Continuity} \subfile{revisedsections/DerivativesAndContinuity}
 \newpage
 \section{Applications of Derivatives}
-\subsection{Units}\subfile{revisedsections/DerivativeUnits}\noindent\rule[0.5ex]{\linewidth}{1pt}\newpage\subfile{revisedproblems/DerivativeUnits}\newpage
-\subsection{Instantaneous Rate of Change}\subfile{revisedsections/InstantaneousRateOfChange}
+\subsection{Units}\subfile{revisedsections/DerivativeUnits}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedproblems/DerivativeUnits}\noindent\rule[0.5ex]{\linewidth}{1pt}
+\subsection{Instantaneous Rate of Change}\subfile{revisedsections/InstantaneousRateOfChange}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedwalkthroughs/InstantaneousRateOfChange}\noindent\rule[0.5ex]{\linewidth}{1pt}
 \subsection{Tangent Line Approximations}\subfile{revisedsections/TangentLineApproximations}
 \subsection{Physics}\subfile{revisedsections/DerivativePhysics}
 \subsection{Related Rates}\subfile{revisedsections/DerivativeRelatedRates}
 \subsection{Optimization}\subfile{revisedsections/Optimization}
 \subsection{Differential Equations}\subfile{revisedsections/DifferentialEquations}
-\subsection{Slope Fields}\subfile{revisedsections/SlopeFields}\newpage
+\subsection{Slope Fields}\subfile{revisedsections/SlopeFields}
 \subsection{Mean Value Theorem}\subfile{revisedsections/MeanValueTheorem}
 \subsection{L'h\^{o}pital's Rule}\subfile{revisedsections/LhospitalsRule}
 \newpage
@@ -98,9 +100,9 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \newpage
 \section{Applications of the Funadamental Theorem}
 \subsection{Differential Equations}\subfile{revisedsections/SolvingDifferentialEquations}
-\subsection{Accumulation and Net Change}\subfile{revisedsections/AccumulationAndNetChange}\newpage
+\subsection{Accumulation and Net Change}\subfile{revisedsections/AccumulationAndNetChange}
 \subsection{Physics}\subfile{revisedsections/SolvingPhysicsWithFundamentalTheorem}
-\newline\vspace{2in}
+\newline\vfill
 \begin{center}
 And that's the end of all the theory behind AP Calculus AB!
 \end{center}
