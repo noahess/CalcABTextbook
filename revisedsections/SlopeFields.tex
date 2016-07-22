@@ -1,13 +1,4 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	Slope fields are (in Noah's opinion) one of the most fun things in Calculus. Given a graph, the differential equation $\displaystyle\frac{dy}{dx}$ is solved for the $(x,y)$ coordinate. The resulting solution is the slope of the graph \textbf{should} the graph actually pass through that point. This step is repeated for a certain number of points on the graph. All the work that has to be done is plug in $(x,y)$ to the equation and draw a small line with the same slope at that point. Here's an example slope field for $y^2+2y=x^2$ $\left(\text{the differential equation is } \displaystyle\frac{dy}{dx}=\displaystyle\frac{x}{y+1}\right)$:
-	\begin{center}
-		\def\length{sqrt(1+(x-y)^2)}
-		\begin{tikzpicture}
-		\begin{axis}[domain=-3:3, view={0}{90}, samples=15]
-		\addplot3[blue, quiver={u={1/(\length)}, v={(y-x)/(\length)}, scale arrows=.25}, -stealth] {0};
-		\end{axis}
-		\end{tikzpicture}
-		\newline Note: arrow heads are normally not drawn.
-	\end{center}
+	Slope fields are (in Noah's opinion) one of the most fun things in Calculus. Given a graph, the differential equation $\displaystyle\frac{dy}{dx}$ is solved for the $(x,y)$ coordinate. The resulting solution is the slope of the graph \textbf{should} the graph actually pass through that point. This step is repeated for a certain number of points on the graph. All the work that has to be done is plug in $(x,y)$ to the equation and draw a small line with the same slope at that point.\\
 \end{document}

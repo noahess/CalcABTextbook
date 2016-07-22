@@ -1,13 +1,20 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	Slope fields are (in Noah's opinion) one of the most fun things in Calculus. Given a graph, the differential equation $\displaystyle\frac{dy}{dx}$ is solved for the $(x,y)$ coordinate. The resulting solution is the slope of the graph \textbf{should} the graph actually pass through that point. This step is repeated for a certain number of points on the graph. All the work that has to be done is plug in $(x,y)$ to the equation and draw a small line with the same slope at that point. Here's an example slope field for $y^2+2y=x^2$ $\left(\text{the differential equation is } \displaystyle\frac{dy}{dx}=\displaystyle\frac{x}{y+1}\right)$:
-	\begin{center}
-		\def\length{sqrt(1+(x-y)^2)}
-		\begin{tikzpicture}
-		\begin{axis}[domain=-3:3, view={0}{90}, samples=15]
-		\addplot3[blue, quiver={u={1/(\length)}, v={(y-x)/(\length)}, scale arrows=.25}, -stealth] {0};
-		\end{axis}
-		\end{tikzpicture}
-		\newline Note: arrow heads are normally not drawn.
-	\end{center}
+\begin{center}
+	\LARGE Exercises:
+\end{center}
+\begin{enumerate}
+	\item Find the differential equation for the function:
+	\begin{enumerate}
+		\item $y=\sin(x)$
+		\item $y=(x-2)^4$
+		\item $y=\ln(x^2+1)$
+	\end{enumerate}
+	\item Draw the slope field for these functions at the points: (-1,-1), (0,-1), (1,-1), (-1,0), (0,0), (1,0), (-1,1), (0,1), and (1,1).
+	\begin{enumerate}
+		\item $y=x^2$
+		\item $y=\displaystyle\frac{(x+2)}{(x-1)(2x+1)}$
+		\item $y=\sec(2x)$
+	\end{enumerate}
+\end{enumerate}
 \end{document}
