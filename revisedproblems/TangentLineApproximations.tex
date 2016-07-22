@@ -1,13 +1,20 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-The tangent line can be used as an approximations for points near a point on a graph. Take this example of the graph $f(x)=\sqrt{x}$:
-	\begin{center}
-		\begin{tikzpicture}
-		\begin{axis}
-		\addplot[domain=2:6,red]{x^.5};
-		\addplot[domain=2:6, red, dashed]{.25*x+1};
-		\end{axis}
-		\end{tikzpicture}
-		\end{center}
-		The tangent line for $f(4)$ is $y-2=.25(x-4)$ and approximates the graph pretty well for the near area. Because $\sqrt{5}$ would be incredibly difficult to find by hand, we can use the tangent line to approximate the value. $$f(5) \approx .25(5-4)+2$$ which is 2.25. The actual value is about 2.236. The approximation worked pretty well in this case with an error of about 0.014, or less than 1\% of the actual value.
+\begin{center}
+	\LARGE{Exercises:}
+\end{center}
+\begin{enumerate}
+	\item \textbf{Find the point-slope form of the tangent line for the equation at the given point:}
+	\begin{enumerate}
+		\item $y=(x-3)(x+5)$ when $x=4$
+		\item $y=\sin(x)$ when $x=\frac{\pi}{6}$
+		\item $y=\displaystyle\frac{x}{\sqrt{x^2-2x-12}}$ when $x=5$ 
+	\end{enumerate}
+	\item \textbf{Approximate the value at the given point:}
+	\begin{enumerate}
+		\item $y=\tan(x)$ when $x=\displaystyle\frac{3\pi}{16}$
+		\item $y=2\ln(x)$ when $x=3$ \qquad(hint: $e\approx2.713$)
+		\item $y=\displaystyle\frac{1}{1+e^{x}}$ when $x=0.5$
+	\end{enumerate}
+\end{enumerate}
 \end{document}

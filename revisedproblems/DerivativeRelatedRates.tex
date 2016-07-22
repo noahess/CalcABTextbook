@@ -1,4 +1,14 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	Derivatives find the rate of change of something with respect to something else. Two or more derivatives can be combined, as a result, to find how one value affects another. For example, if we know the the radius of a circle at any given time is $\ln(t)$, we know the rate of change musb be $\displaystyle\frac{1}{t}$, which we can rewrite as $\displaystyle\frac{dr}{dt}=\displaystyle\frac{1}{t}$. If we wanted to find how the area of a circle changes with respect to the radius, all we need to do is take the derivative. $$A=\pi r^2$$$$\frac{dA}{dt}=2\pi r\frac{dr}{dt}$$ substituting for $r$ and $\displaystyle\frac{dr}{dt}$, we get $$\frac{dA}{dt}=2 \pi \ln(t) * \frac{1}{t}$$ which means that for any given time $t$, the rate of change of the area $A$ must be $$\frac{2\ln(t)}{t}$$ Is it not super cool that the derivative of the area of a circle is the circumfrence?
+\begin{center}
+	\LARGE Exercises:
+\end{center}
+\begin{enumerate}
+	\item Find the equation for the rate:
+	\begin{enumerate}
+		\item The change in the surface area of a cube with respect to the change of its side length
+		\item The change in the area of a right triangle with respect to the change of one of the non-right angles
+	\end{enumerate}
+	\item Coach Lou is filling a form with concrete to create a prop for the musical. The form's inside is an equilateral triangular prism with side lengths of 4ft and a depth of 15ft. He is filling it at a rate of 1.5 cubic feet per minute. Find the equation for the height of the concrete at time $t$ if one of the rectangular sides is flush with the ground.
+\end{enumerate}
 \end{document}

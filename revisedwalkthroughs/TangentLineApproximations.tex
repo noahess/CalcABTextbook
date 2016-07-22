@@ -1,4 +1,27 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-\paragraph{Example 1:}Estimate the value of 
+\paragraph{Example 1:}Estimate the value of $f(8.125)$ for $f(x)=-2\sqrt[3]{x^2}$
+\begin{equation}
+	\begin{split}
+	f(x)&=-2\sqrt[3]{x^2}\\
+	f(x)&=-2x^{\frac{2}{3}}\\
+	\frac{df}{dx}&=-2x^{-\frac{1}{3}}\left(\frac{2}{3}\right)\\
+	\frac{df}{dx}&=-\frac{4}{3}*\frac{1}{\sqrt[3]{x}}\\
+	\frac{df}{dx}(8)&=-\frac{4}{3}*\frac{1}{2}\\
+	\frac{df}{dx}(8)&=-\frac{2}{3}\\
+	\end{split}
+\end{equation}Now that we know the derivative at 8, we can plug that into a point-slope linear equation:
+\begin{gather*}
+	y-y_0=m(x-x_0)\\
+	y-f(8)=-\frac{2}{3}(x-8)\\
+	y+8=-\frac{2}{3}(x-8)\\
+\end{gather*}We can now use that to estimate $f(8.125)$
+\begin{equation}
+	\begin{split}
+	y+8&=-\frac{2}{3}(8.125-8)\\
+	y&=-\frac{2}{3}*\frac{1}{8}-8\\
+	y&=-\frac{1}{12}-8\\
+	y&=-8\,\frac{1}{12}\\
+	\end{split}
+\end{equation} A good approximation for $f(8.125)$ is therefore $-8\,\displaystyle\frac{1}{12}$.\\
 \end{document}

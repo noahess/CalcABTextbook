@@ -1,4 +1,21 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	Derivatives find the rate of change of something with respect to something else. Two or more derivatives can be combined, as a result, to find how one value affects another. For example, if we know the the radius of a circle at any given time is $\ln(t)$, we know the rate of change musb be $\displaystyle\frac{1}{t}$, which we can rewrite as $\displaystyle\frac{dr}{dt}=\displaystyle\frac{1}{t}$. If we wanted to find how the area of a circle changes with respect to the radius, all we need to do is take the derivative. $$A=\pi r^2$$$$\frac{dA}{dt}=2\pi r\frac{dr}{dt}$$ substituting for $r$ and $\displaystyle\frac{dr}{dt}$, we get $$\frac{dA}{dt}=2 \pi \ln(t) * \frac{1}{t}$$ which means that for any given time $t$, the rate of change of the area $A$ must be $$\frac{2\ln(t)}{t}$$ Is it not super cool that the derivative of the area of a circle is the circumfrence?
+	\paragraph{Example 1:} Find the rate of change in the volume of a sphere if the radius is $\sin^2(t)$ at time $t$.
+	We will start with finding the derivative of the volume equation, implicitly:
+	\begin{gather*}
+		V=\frac{4}{3}\pi r^3\\
+		\frac{dV}{dt}=\frac{4}{3}\,\pi\, 3\,r^2\, \frac{dr}{dt}\\
+		\frac{dV}{dt}=4\,\pi\, r^2\,\frac{dr}{dt}\\
+		\end{gather*}Next, we will find the derivative of the radius equation:
+		\begin{gather*}
+		r=\sin^2(t)\\
+		r=\sin(t)*\sin(t)\\
+		\frac{dr}{dt}=\sin(t)*\cos(t)+\cos(t)*\sin(t)\\
+		\frac{dr}{dt}=2\sin(t)\cos(t)\\
+	\end{gather*}Knowing these two equations and the equation for $r$, we can substitute:
+\begin{gather*}
+	\frac{dV}{dt}=4\pi r^2*2\sin(t)\cos(t)\\
+	\frac{dV}{dt}=8\pi (\sin^2(t))^2 \sin(t)\cos(t)\\
+	\frac{dV}{dt}=8\pi \sin^5(t)\cos(t)\\
+\end{gather*}
 \end{document}
