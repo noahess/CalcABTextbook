@@ -38,9 +38,10 @@
 \title{Noah's Guide to Calculus}
 \author{Noah Stockwell}
 \date{Summer 2016}
+\newcommand{\newMidline}{\noindent\rule[0.5ex]{\linewidth}{1pt}}
 \newcommand{\newchapter}[2]
 {
-	\subsection{#1}\subfile{revisedsections/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedwalkthroughs/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedproblems/#2}\noindent\rule[0.5ex]{\linewidth}{1pt}\vspace{.125in}
+	\subsection{#1}\subfile{revisedsections/#2}\newMidline\subfile{revisedwalkthroughs/#2}\newMidline\subfile{revisedproblems/#2}\newMidline\vspace{.125in}
 }
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 \begin{document}
@@ -61,7 +62,7 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits} 
 \newchapter{Directly Calculating Limits}{DirectlyCalculatingLimits}
 %\newchapter{The Squeeze Theorem}{SqueezeTheorem}
-\subsection{The Squeeze Theorem}\subfile{revisedsections/SqueezeTheorem}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedwalkthroughs/SqueezeTheorem}\noindent\rule[0.5ex]{\linewidth}{1pt}\vspace{.125in}
+\subsection{The Squeeze Theorem}\subfile{revisedsections/SqueezeTheorem}\newMidline\subfile{revisedwalkthroughs/SqueezeTheorem}\newMidline\vspace{.125in}
 \subsection{Relative Magnitudes} \subfile{revisedsections/RelativeMagnitudes}\newpage
 \section{Derivatives} \subfile{revisedsections/IntroToDerivatives}
 \newchapter{The Difference Quotient}{DifferenceQuotient}
@@ -74,8 +75,8 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \subsection{Relationship with Continuity} \subfile{revisedsections/DerivativesAndContinuity}
 \newpage
 \section{Applications of Derivatives}
-\subsection{Units}\subfile{revisedsections/DerivativeUnits}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedproblems/DerivativeUnits}\noindent\rule[0.5ex]{\linewidth}{1pt}
-\subsection{Instantaneous Rate of Change}\subfile{revisedsections/InstantaneousRateOfChange}\noindent\rule[0.5ex]{\linewidth}{1pt}\subfile{revisedwalkthroughs/InstantaneousRateOfChange}\noindent\rule[0.5ex]{\linewidth}{1pt}
+\subsection{Units}\subfile{revisedsections/DerivativeUnits}\newMidline\subfile{revisedproblems/DerivativeUnits}\newMidline
+\subsection{Instantaneous Rate of Change}\subfile{revisedsections/InstantaneousRateOfChange}
 \newchapter{Tangent Line Approximations}{TangentLineApproximations}
 \subsection{Physics}\subfile{revisedsections/DerivativePhysics}
 \newchapter{Related Rates}{DerivativeRelatedRates}
@@ -83,11 +84,11 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \subsection{Differential Equations}\subfile{revisedsections/DifferentialEquations}
 \newchapter{Slope Fields}{SlopeFields}
 \subsection{Mean Value Theorem}\subfile{revisedsections/MeanValueTheorem}
-\subsection{L'h\^{o}pital's Rule}\subfile{revisedsections/LhospitalsRule}
+\newchapter{L'h\^{o}pital's Rule}{LhospitalsRule}
 \newpage
 \section{Antiderivatives and Definite Integrals}
-\subsection{Antiderivatives}\subfile{revisedsections/Antiderivatives}
-\subsection{Riemann Sums}\subfile{revisedsections/RiemannSums}
+\subsection{Introduction to Antiderivatives}\subfile{revisedsections/Antiderivatives}
+\subsection{Riemann Sums}\subfile{revisedsections/RiemannSums}\newMidline\subfile{revisedproblems/RiemannSums}\newMidline
 \subsection{Limits of Riemann Sums}\subfile{revisedsections/LimitsOfRiemannSums}
 \subsection{Rules of Integrals}\subfile{revisedsections/RulesOfIntegrals}
 \subsection{Average Value}\subfile{revisedsections/AverageValue}
