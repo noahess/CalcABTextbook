@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUL 2016 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUL 2016 20:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1293,7 +1293,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
  []
 
 
-Overfull \hbox (18.36171pt too wide) in paragraph at lines 5--8
+Overfull \hbox (18.36171pt too wide) in paragraph at lines 5--6
 []\OT1/cmr/m/n/10 Comics used are from xkcd.com, li-censed un-der a Cre-ative C
 om-mons Attribution-
  []
@@ -1604,7 +1604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 Here is how much of TeX's memory you used:
  28944 strings out of 493089
  686939 string characters out of 6134842
- 1911170 words of memory out of 5000000
+ 1912170 words of memory out of 5000000
  31732 multiletter control sequences out of 15000+600000
  11200 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1633,7 +1633,7 @@ y7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pf
 b>
-Output written on revisedMain.pdf (61 pages, 591455 bytes).
+Output written on revisedMain.pdf (61 pages, 591239 bytes).
 PDF statistics:
  302 PDF objects out of 1000 (max. 8388607)
  205 compressed objects within 3 object streams
