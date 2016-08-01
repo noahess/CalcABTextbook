@@ -8,7 +8,7 @@ Madison, WI 53711 <br/>
 
 
 
-### As of 7/23/2016, the textbook is still unfinished.
+### As of 7/31/2016, the textbook is still unfinished.
 Here is a list of things in order of which I will get to them:
 
 1. ~~Limits of Riemann Sums~~
