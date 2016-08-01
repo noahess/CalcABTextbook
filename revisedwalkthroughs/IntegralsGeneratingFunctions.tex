@@ -1,4 +1,17 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-The integral finds the area underneath a graph between two points. Those two points do not necessarily have to be constants, and one can find this integral easily: $$\int_{0}^{t}\cos(x)dx$$ where $t$ is a variable. The answer is	$\sin(t)-\sin(0)=\sin(t)$. This is interesting, especially because for any point $t$ on the graph, the area underneath the curve of $\cos(x)$ between $x=0$ and $x=t$ will always be $\sin(t)$.
+\paragraph{Example 1:}Compute the integral $\int_{0}^{2x}t\cos(t^2)dt$
+\begin{gather*}
+	u=t^2\\
+	t=0\mapsto u=0\\
+	t=2x\mapsto u=4x^2\\
+	.5\int_{0}^{4x^2}\cos(u)du\\
+	.5\sin(4x^2)-.5\sin(1)\\
+\end{gather*}
+\paragraph{Example 2:}Compute the integral $\int_{1}^{r}x^2+1-\frac{3}{x}dx$
+\begin{gather*}
+	\int_{1}^{r}x^2dx+\int_{1}^{r}dx-3\int_{1}^{r}\frac{1}{x}dx\\
+	(\frac{r^3}{3}-\frac{0}{3})+(r-1)-(\ln(r)-\ln(3))\\
+	\frac{r^3-1}{3}+r-1-\ln(r)-\ln(3)\\
+\end{gather*}
 \end{document}
