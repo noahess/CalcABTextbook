@@ -13,5 +13,5 @@ The shell method is the opposite way to calculate revolved solids of the disc me
 	\end{tikzpicture}
 \end{center}
 An area bounded by two functions revolved around the y-axis, it can be easier to calculate shells instead of discs. We can say that we have approximations for a thin ``shell'' that is just a circle's circumference multiplied by some width. This is not exactly the formula for a shell-like object but because the width is so small, it's practically 2-dimensional and the approximation is close enough. The error becomes closer to 0 as the width of the shells closes in on 0 (a limit!). We end up with the formula for each shell being: $$2*\pi*r*height*width$$The radius in this case is $x$ because every point will be $x$ units away from the $y$-axis, the height will be the top function minus the bottom ($\sqrt{x}-x^2$). The width is an infinitely small amount of $x$, or $dx$. Therefore the formula is:$$2\pi\int_{0}^{1}x(\sqrt{x}-x^2)dx$$  in this case.
-\newline\par A simple way the author was taught to remember this is that the she\textbf{\textit{ll}} method is useful when the axis of revolution and cross-section are para\textbf{\textit{ll}}el.
+\par A simple way I was taught to remember this is that the she\textbf{\textit{ll}} method is useful when the axis of revolution and cross-section are para\textbf{\textit{ll}}el.\\
 \end{document}

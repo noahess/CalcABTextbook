@@ -1,16 +1,37 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-The shell method is the opposite way to calculate revolved solids of the disc method. If one is given a cross section like this:
-\begin{center}
-	\begin{tikzpicture}
-		\begin{axis}[domain=0:1.125,axis lines=middle,axis on top]
-		\fill[blue!10] (axis cs:0.5,0.25) rectangle (axis cs:0.64,.8);
-		\addplot[smooth,thick,samples=50,blue]{x^0.5};
-		\node [anchor=south,color=blue] at (axis cs:.8,.9){$\sqrt{x}$};
-		\addplot[smooth,thick,samples=50,cyan]{x^2};
-		\node [anchor=south,color=cyan] at (axis cs:.8,.5){$x^2$};
-		\end{axis}
-	\end{tikzpicture}
-\end{center}
-An area bounded by two functions revolved around the y-axis, it can be easier to calculate shells instead of discs. We can say that we have approximations for a thin ``shell'' that is just a circle's circumference multiplied by some width. This is not exactly the formula for a shell-like object but because the width is so small, it's practically 2-dimensional and the approximation is close enough. The error becomes closer to 0 as the width of the shells closes in on 0 (a limit!). We end up with the formula for each shell being: $$2*\pi*r*height*width$$The radius in this case is $x$ because every point will be $x$ units away from the $y$-axis, the height will be the top function minus the bottom ($\sqrt{x}-x^2$). The width is an infinitely small amount of $x$, or $dx$. Therefore the formula is:$$2\pi\int_{0}^{1}x(\sqrt{x}-x^2)dx$$  in this case.
+\paragraph{Example 1:}Find the volume of the solid bounded by $y=x^2$, $y=\sin\left(\pi x^2\right)+x$, $x$=0, and $x$=1 revolved around the $y$-axis.\newline
+The only way to calculate this is by finding the difference between $x^2$ and $\sin\left(\pi x^2\right)+x$, so we must use the shell method. Remember, the shell of a cylinder is $2*\pi*r*height*width$. $r$ is the distance away from the axis of revolution, which in this case is $x-0=x$. $height$ will be the height of the rectangle, or $\sin\left(\pi x^2\right)+x-x^2$. $width$ is going to be infinitely small, or $dx$. That leaves us with the volume being:\[dV=2\pi*x*\left(\sin\left(\pi x^2\right)+x-x^2\right)*dx\]which simplifies down to\[dV=2\pi \left(x\sin\left(\pi x^2\right)+x^2-x^3\right)dx\]Now, we will add up all of these volumes between $x=0$ and $x=1$:
+\begin{gather*}
+	V=\int_{0}^{1}2\pi \left(x\sin(\pi x^2)+x^2-x^3\right)dx\\
+	V=2\pi\left(\int_{0}^{1}x\sin(\pi x^2)dx+\int_{0}^{1}x^2dx-\int_{0}^{1}x^3dx\right)\\
+	u=x^2\\
+	du=2x\,dx\\
+	x=0\mapsto u=0\\
+	x=1\mapsto u=1\\
+	V=2\pi\left(.5\int_{0}^{1}\sin(\pi u)du+\int_{0}^{1}x^2dx-\int_{0}^{1}x^3dx\right)\\
+	V=2\pi\left(\frac{1}{2\pi}(-\cos(\pi*1)+\cos(\pi*0)\right)+\frac{1}{3}-\frac{0}{3}-\frac{1}{4}+\frac{0}{4}\\
+	V=2\pi\left(\frac{1}{2\pi}(1+1)+\frac{1}{3}-\frac{1}{4}\right)\\
+	V=2+\frac{\pi}{6}\\
+\end{gather*}
+\paragraph{Example 2:}Find the volume of the solid bounded by $y=x^2$, $y=4$, and $x=0$ revolved around the y-$axis$.\\It's probably best to approach this problem using the washer method. First, we have to find everything in terms of $y$:
+\begin{gather*}
+	y=x^2\\
+	\sqrt{y}=x\\
+\end{gather*}
+Now for the boundary points $x=0$ and $x=1$
+\begin{gather*}
+	x=0\mapsto y=0\\
+	x=2\mapsto y=4\\
+\end{gather*}
+Here's what we have so far: the boundaries are $y=0$ and $y=4$, the function is $x=\sqrt{y}$, and we are revolving around $x=0$. Our infinitesimal volume is $\pi*r^2*height$ which is:
+\[dV=\pi\left(\sqrt{y}\right)^2*dy\]
+Therefore, our total sum of all of the volumes is:
+\begin{gather*}
+V=\int_{0}^{4}\pi*(x)^2*dy\\
+V=\pi\int_{0}^{4}(\sqrt{y})^2dy\\
+V=\pi\int_{0}^{4}y\, dy\\
+V=\pi\left(.5(4)^2-.5(0)^2\right)\\
+V=8\pi\\
+\end{gather*}
 \end{document}

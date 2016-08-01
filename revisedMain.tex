@@ -7,7 +7,6 @@
 \usepackage{csquotes}
 \usepackage{pstricks-add}
 \usepackage{graphicx}
-\usepackage{csquotes}
 \mathtoolsset{showonlyrefs}
 \psset{plotpoints=200,algebraic}
 \pgfplotsset{compat=1.12}
@@ -16,26 +15,20 @@
 \pgfplotsset{dot/.style={color=blue,fill=blue,only marks,mark=*}}
 \usepgfplotslibrary{groupplots}
 \pgfplotsdefinecstransform{polarrad along x}{cart}{%
-	% First, swap axis such that we can apply polarrad->cart.
-	% Note that polarrad expects (<angle>,<radius>,Z):
-	\pgfkeysgetvalue{/data point/x}\X% copy value of /data point/x into \X
+	\pgfkeysgetvalue{/data point/x}\X
 	\pgfkeysgetvalue{/data point/y}\Y
-	\pgfkeyslet{/data point/y}\X% copy value of \X into /data point/y
+	\pgfkeyslet{/data point/y}\X
 	\pgfkeyslet{/data point/x}\Y
 	\pgfplotsaxistransformcs
 	{polarrad}
-	{cart}%
-	%
-	% Ok, now we have cartesian. Swap axes such that we have them
-	% along X:
+	{cart}
 	\pgfkeysgetvalue{/data point/x}\X
 	\pgfkeysgetvalue{/data point/y}\Y
 	\pgfkeysgetvalue{/data point/z}\Z
 	\pgfkeyslet{/data point/y}\X
 	\pgfkeyslet{/data point/z}\Y
 	\pgfkeyslet{/data point/x}\Z
-}%
-%\usepgfplotslibrary{fillbetween}
+}
 \title{Noah's Guide to Calculus}
 \author{Noah Stockwell}
 \date{Summer 2016}
@@ -97,7 +90,7 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \newchapter{Integrals Generating Functions}{IntegralsGeneratingFunctions}
 \subsection{Calculating Area}\subfile{revisedsections/CalculatingArea}
 \subsection{Disc Method}\subfile{revisedsections/DiscMethod}
-\subsection{Shell Method}\subfile{revisedsections/WasherMethod}
+\newchapter{Shell Method}{WasherMethod}
 \newpage
 \section{The Fundamental Theorem}
 \subsection{Introduction}\subfile{revisedsections/FundamentalTheoremIntroduction}

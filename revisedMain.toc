@@ -77,12 +77,14 @@
 \contentsline {subsection}{\numberline {4.8}Calculating Area}{59}
 \contentsline {subsection}{\numberline {4.9}Disc Method}{59}
 \contentsline {subsection}{\numberline {4.10}Shell Method}{61}
-\contentsline {section}{\numberline {5}The Fundamental Theorem}{63}
-\contentsline {subsection}{\numberline {5.1}Introduction}{63}
-\contentsline {subsection}{\numberline {5.2}Consequences}{63}
-\contentsline {section}{\numberline {6}Applications of the Funadamental Theorem}{64}
-\contentsline {subsection}{\numberline {6.1}Differential Equations}{64}
-\contentsline {subsection}{\numberline {6.2}Accumulation and Net Change}{64}
-\contentsline {subsection}{\numberline {6.3}Physics}{65}
-\contentsline {section}{\numberline {7}Tips on the Course and AP Test}{66}
-\contentsline {section}{\numberline {8}Endnotes}{67}
+\contentsline {paragraph}{Example 1:}{62}
+\contentsline {paragraph}{Example 2:}{63}
+\contentsline {section}{\numberline {5}The Fundamental Theorem}{65}
+\contentsline {subsection}{\numberline {5.1}Introduction}{65}
+\contentsline {subsection}{\numberline {5.2}Consequences}{65}
+\contentsline {section}{\numberline {6}Applications of the Funadamental Theorem}{66}
+\contentsline {subsection}{\numberline {6.1}Differential Equations}{66}
+\contentsline {subsection}{\numberline {6.2}Accumulation and Net Change}{66}
+\contentsline {subsection}{\numberline {6.3}Physics}{67}
+\contentsline {section}{\numberline {7}Tips on the Course and AP Test}{68}
+\contentsline {section}{\numberline {8}Endnotes}{69}
