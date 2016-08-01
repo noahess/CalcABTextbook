@@ -8,13 +8,13 @@ Madison, WI 53711 <br/>
 
 
 
-### As of 7/31/2016, the textbook is still unfinished.
+### As of 8/1/2016, the textbook is still unfinished.
 Here is a list of things in order of which I will get to them:
 
 1. ~~Limits of Riemann Sums~~
 2. ~~Rules of Integrals~~
 3. ~~Average Value~~
-4. Integrals Generating Functions
+4. ~~Integrals Generating Functions~~
 5. Calculating Area
 6. Disc and Shell Methods
 7. The Fundamental Theorem and Consequences
