@@ -2,11 +2,20 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./revisedMain.tex
-(./revisedMain.tex
+**./uSub.tex
+(./uSub.tex
 LaTeX2e <2016/03/31>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
+(c:/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(c:/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../revisedmain.tex'
+(../revisedmain.tex (c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (c:/texlive/2015/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -25,8 +34,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (c:/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -339,13 +348,7 @@ Now handling font encoding U ...
 ))
 (c:/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(c:/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks16
-\verbatim@line=\toks17
-\verbatim@in@stream=\read1
-))
+)
 (c:/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
@@ -1237,28 +1240,28 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./revisedMain.aux)
-\openout1 = `revisedMain.aux'.
+)) (./uSub.aux)
+\openout1 = `uSub.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 2.
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 2.
 
 ABD: EveryShipout initializing macros
 (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1340,414 +1343,30 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdft
-ex.map}] (./revisedsections/Legal.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+ex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-<license.png, id=12, 88.33pt x 31.11626pt>
-File: license.png Graphic file (type png)
- <use license.png>
-Package pdftex.def Info: license.png used on input line 4.
-(pdftex.def)             Requested size: 36.135pt x 12.72925pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-
-Overfull \hbox (18.36171pt too wide) in paragraph at lines 5--6
-[]\OT1/cmr/m/n/10 Comics used are from xkcd.com, li-censed un-der a Cre-ative C
-om-mons Attribution-
- []
-
-) [2 <./license.png>] (./revisedsections/Introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-<teachers.png, id=20, 89.133pt x 37.5804pt>
-File: teachers.png Graphic file (type png)
- <use teachers.png>
-Package pdftex.def Info: teachers.png used on input line 6.
-(pdftex.def)             Requested size: 345.0pt x 145.47166pt.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 6--7
-[][] 
- []
-
-) [3 <./teachers.png>] (./revisedMain.toc [4])
-\tf@toc=\write4
-\openout4 = `revisedMain.toc'.
-
- [5]
-(./revisedsections/IntroToLimits.tex) (./revisedsections/TypesOfLimits.tex
-[6]) [7] (./revisedsections/DirectlyCalculatingLimits.tex [8] [9] [10] [11])
-(./revisedwalkthroughs/DirectlyCalculatingLimits.tex
-Underfull \hbox (badness 10000) in paragraph at lines 64--3
-
- []
-
-[12] [13]) (./revisedproblems/DirectlyCalculatingLimits.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-
- []
-
-(./revisedsections/SqueezeTheorem.tex [14])
-(./revisedwalkthroughs/SqueezeTheorem.tex
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 17--3
- []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--3
-
- []
-
-[15]) (./revisedsections/RelativeMagnitudes.tex
-Package pgfplots info on input line 7: Using 'lua backend=false' for axis: ymod
-e=log unsupported (yet).
-
-NOTE: coordinate (0Y0.0e0],1Y1.0e0]) has been dropped because it is unbounded (
-in x). (see also unbounded coords=jump). 
-NOTE: coordinate (0Y0.0e0],0Y0.0e0]) has been dropped because it is unbounded (
-in x). (see also unbounded coords=jump). 
-[16]) [17] (./revisedsections/IntroToDerivatives.tex
-<newton.png, id=77, 703.68158pt x 207.3008pt>
-File: newton.png Graphic file (type png)
- <use newton.png>
-Package pdftex.def Info: newton.png used on input line 4.
-(pdftex.def)             Requested size: 345.0pt x 101.63837pt.
-)
-(./revisedsections/DifferenceQuotient.tex [18 <./newton.png>])
-(./revisedwalkthroughs/DifferenceQuotient.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--3
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
-
- []
-
-[20]) (./revisedproblems/DifferenceQuotient.tex
-Underfull \hbox (badness 10000) in paragraph at lines 34--3
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-(./revisedsections/EstimatingDerivatives.tex [21])
-(./revisedsections/DerivativeRules.tex [22] [23])
-(./revisedwalkthroughs/DerivativeRules.tex
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 40--3
- []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--3
-
- []
-
-[24]) (./revisedproblems/DerivativeRules.tex [25])
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-(./revisedsections/ImplicitDifferentiation.tex)
-(./revisedwalkthroughs/ImplicitDifferentiation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 10--3
-
- []
-
-[26]) (./revisedproblems/ImplicitDifferentiation.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-(./revisedsections/MaxAndMin.tex [27] [28])
-(./revisedwalkthroughs/MaxAndMin.tex
-Underfull \hbox (badness 10000) in paragraph at lines 42--3
-
- []
-
-[29] [30]) (./revisedproblems/MaxAndMin.tex
-Underfull \hbox (badness 10000) in paragraph at lines 48--3
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-(./revisedsections/Concavity.tex [31]) (./revisedwalkthroughs/Concavity.tex
-Underfull \hbox (badness 10000) in paragraph at lines 74--3
-
- []
-
-[32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 54--60
-
- []
-
-) (./revisedproblems/Concavity.tex
-Underfull \hbox (badness 10000) in paragraph at lines 63--3
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-(./revisedsections/DerivativeGraphs.tex [34]) [35]
-(./revisedsections/DerivativesAndContinuity.tex) [36]
-(./revisedsections/DerivativeUnits.tex) (./revisedproblems/DerivativeUnits.tex
-[37]) (./revisedsections/InstantaneousRateOfChange.tex)
-(./revisedsections/TangentLineApproximations.tex [38])
-(./revisedwalkthroughs/TangentLineApproximations.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--3
-
- []
-
-) (./revisedproblems/TangentLineApproximations.tex [39])
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-(./revisedsections/DerivativePhysics.tex)
-(./revisedsections/DerivativeRelatedRates.tex [40])
-(./revisedwalkthroughs/DerivativeRelatedRates.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-) (./revisedproblems/DerivativeRelatedRates.tex
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 20--3
- [] 
- []
-
-[41])
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-(./revisedsections/Optimization.tex) (./revisedwalkthroughs/Optimization.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-) (./revisedproblems/Optimization.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-(./revisedsections/DifferentialEquations.tex [42])
-(./revisedsections/SlopeFields.tex) (./revisedwalkthroughs/SlopeFields.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 9.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-[43]) (./revisedproblems/SlopeFields.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-(./revisedsections/MeanValueTheorem.tex [44])
-(./revisedsections/LhospitalsRule.tex)
-(./revisedwalkthroughs/LhospitalsRule.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-[45]) (./revisedproblems/LhospitalsRule.tex
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 15--3
- [] 
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-[46] (./revisedsections/Antiderivatives.tex) (./revisedsections/RiemannSums.tex
-[47] [48] [49]
-Overfull \hbox (37.20444pt too wide) detected at line 63
-[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c\OT1/cm
-r/m/n/10 ) + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c \OT1/cmr/m/n
-/10 + []) + [](\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ([]) + \OML/cmm/m/it/10 f\OT1/
-cmr/m/n/10 (\OML/cmm/m/it/10 c \OT1/cmr/m/n/10 + 2[]) + [] + [](\OML/cmm/m/it/1
-0 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )
- + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 )
- []
-
-
-Overfull \hbox (25.14917pt too wide) detected at line 63
-\OT1/cmr/m/n/10 = [] []
- []
-
-[50]) (./revisedproblems/RiemannSums.tex)
-(./revisedsections/LimitsOfRiemannSums.tex [51])
-(./revisedsections/RulesOfIntegrals.tex [52])
-(./revisedwalkthroughs/RulesOfIntegrals.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-[53]) (./revisedproblems/RulesOfIntegrals.tex
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 28--3
- [] 
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-(./revisedsections/uSub.tex [54] [55]) (./revisedwalkthroughs/uSub.tex
-Underfull \hbox (badness 10000) in paragraph at lines 18--3
-
- []
-
-) (./revisedproblems/uSub.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-(./revisedsections/AverageValue.tex
-Overfull \hbox (19.08008pt too wide) in paragraph at lines 3--3
-\OT1/cmr/m/n/10 points $\OML/cmm/m/it/10 a$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/
-10 b$\OT1/cmr/m/n/10 . The arith-metic mean (av-er-age) of any-thing is $[]$.
- []
-
-[56]) (./revisedwalkthroughs/AverageValue.tex
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 3--3
- []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-) (./revisedproblems/AverageValue.tex
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 16--3
- [] 
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-[57] (./revisedsections/IntegralsGeneratingFunctions.tex)
-(./revisedsections/CalculatingArea.tex) (./revisedsections/DiscMethod.tex
-[58] [59]) (./revisedsections/WasherMethod.tex [60]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-) [61] (./revisedsections/FundamentalTheoremIntroduction.tex)
-(./revisedsections/FunadamentalTheoremConsequences.tex) [62]
-(./revisedsections/SolvingDifferentialEquations.tex)
-(./revisedsections/AccumulationAndNetChange.tex)
-(./revisedsections/SolvingPhysicsWithFundamentalTheorem.tex
-<physics.png, id=231, 218.61674pt x 299.9205pt>
-File: physics.png Graphic file (type png)
- <use physics.png>
-Package pdftex.def Info: physics.png used on input line 5.
-(pdftex.def)             Requested size: 108.40742pt x 144.54597pt.
- [63])
-Underfull \hbox (badness 10000) in paragraph at lines 8--110
-
- []
-
-[64 <./physics.png>] (./revisedsections/TipsOnTheApTest.tex) [65]
-(./revisedsections/Endnotes.tex <purity.png, id=241, 763.99715pt x 317.988pt>
-File: purity.png Graphic file (type png)
-
-<use purity.png>
-Package pdftex.def Info: purity.png used on input line 3.
-(pdftex.def)             Requested size: 345.0pt x 143.59789pt.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 3--5
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
-
- []
-
-) [66 <./purity.png>] (./revisedMain.aux) ) 
+[2] (./uSub.aux) ) 
 Here is how much of TeX's memory you used:
- 29540 strings out of 493027
- 702797 string characters out of 6137678
- 1802466 words of memory out of 5000000
- 32369 multiletter control sequences out of 15000+600000
- 11200 words of font info for 40 fonts, out of 8000000 for 9000
+ 27151 strings out of 493027
+ 645700 string characters out of 6137678
+ 858568 words of memory out of 5000000
+ 30195 multiletter control sequences out of 15000+600000
+ 4440 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,20n,103p,2131b,4799s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2015/texmf-dist/fonts/en
-c/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-ti10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr9.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-5.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2015/texmf-
-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on revisedMain.pdf (66 pages, 608978 bytes).
+ 71i,8n,85p,763b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on uSub.pdf (2 pages, 63553 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
+ 38 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

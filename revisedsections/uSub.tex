@@ -1,0 +1,19 @@
+\documentclass[../revisedmain.tex]{subfiles}
+\begin{document}
+	$u$-Substitution is a very important tool to have in your integral toolbox. It works a bit like this:
+	\begin{displayquote}
+		One of the most basic elements in math is the variable. Variables can represent \textit{anything}, from a simple constant $r=2$ to a complex system of other variables like $y=\ln(2x)$. These statements are true simply because we say they are. The only thing that we're doing when we assign a variable is essentially re-naming a phrase. In the previous example, we take $\ln(2x)$ and give it the name $y$.
+	\end{displayquote}
+	Let's look at this equation:\[f(x)=\int_{0}^{2}x\cos(x^2+1)dx\]Here, we are using $x$ as our variable of choice. Unfortunately, there is no integral form that this falls under. We can change $x$ to a different variable and the equation would still be true as long as the equality is kept:
+	\begin{gather*}
+		x=t\\f(t)=\int_{0}^{2}x\cos(t^2+1)dt\\
+	\end{gather*}Although this change doesn't change the value of the equality, it's not too helpful. We can assign an entire phrase to a variable though, and we will call that phrase stand-in $u$. In this case, let's say\[u=x^2+1\] That helps clear up the bottom. Our equation is now\[f(x)=\int_{0}^{2}t\cos(u)dx\]That wasn't helpful at all. We now have one integral and two variables. A mess! That being said, we can start putting things in terms of $u$:
+	\begin{gather*}
+		x=0 \mapsto u=1\\
+		x=2 \mapsto u=5\\
+	\end{gather*}
+	So we can rewrite the equation as \[f(u)=\int_{1}^{5}x\cos(u)dx\] Again, unhelpful. One more thing, though. $dx$ is the infinitesimal value of $x$ that we're using in this integral. Because $u$ is just $x$ changed slightly, we can find $du$ in terms of $dx$!
+	\begin{gather*}
+		u=x^2+1\\du=2x\, dx\\
+	\end{gather*} Which can be re-written as \[dx=\frac{du}{2x}\] which we can substitute back into the integral: \[f(u)=\int_{1}^{5}x\cos(u)\frac{du}{2x}\] which simplifies down to \[f(u)=\frac{1}{2}\int_{1}^{5}\cos(u)du\] which is an easy integral! $f(u)=\sin(5)-\sin(1)$.\\
+\end{document}

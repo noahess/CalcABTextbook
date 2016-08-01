@@ -1,0 +1,20 @@
+\documentclass[../revisedmain.tex]{subfiles}
+\begin{document}
+	\paragraph{Example 1:} Find the integral of $h(x)=x^2\sqrt{x^3+1}$ over [0,1]
+	First, let's find a good phrase to set for $u$. $x^3+1$ looks good:
+	\begin{gather*}
+		x=0\mapsto u=1\\
+		x=1\mapsto u=2\\
+	\end{gather*}
+	Next, let's find $du$:
+	\begin{gather*}
+	u=x^3+1
+	du=x^2dx
+	\end{gather*}
+
+	Plugging in:
+	\[
+	\int_{1}^{2}\sqrt{u}du
+	\]
+	Which is simple from here on out.\\
+\end{document}
