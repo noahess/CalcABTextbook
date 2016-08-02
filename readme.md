@@ -9,18 +9,18 @@ Madison, WI 53711 <br/>
 
 
 ### As of 8/1/2016, the textbook is still unfinished.
-Here is a list of things in order of which I will get to them:
+Here is a list of things in order of which I will get to them:  
 
-1. ~~Limits of Riemann Sums~~
-2. ~~Rules of Integrals~~
-3. ~~Average Value~~
-4. ~~Integrals Generating Functions~~
-5. ~~Calculating Area~~
-6. ~~Disc and Shell Methods~~
-7. ~~The Fundamental Theorem and Consequences~~
-8. Solutions to Differential Equations
-9. Accumulation and Net Change
-10. Physics (using integrals)
-11. Derivative-based Optimization
-12. ~~u-Substitution~~
-13. Trigonometric Substitution
+ - [x] Limits of Riemann Sums  
+ - [x] Rules of Integrals  
+ - [x] Average Value  
+ - [x] Integrals Generating Functions  
+ - [x] Calculating Area  
+ - [x] Disc and Shell Methods  
+ - [x] The Fundamental Theorem and Consequences  
+ - [ ] Solutions to Differential Equations  
+ - [ ] Accumulation and Net Change  
+ - [ ] Physics (using integrals)  
+ - [ ] Derivative-based Optimization  
+ - [x] u-Substitution  
+ - [ ] Trigonometric Substitution  
