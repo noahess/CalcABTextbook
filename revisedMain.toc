@@ -82,9 +82,9 @@
 \contentsline {section}{\numberline {5}The Fundamental Theorem}{65}
 \contentsline {subsection}{\numberline {5.1}Introduction}{65}
 \contentsline {subsection}{\numberline {5.2}Consequences}{65}
-\contentsline {section}{\numberline {6}Applications of the Funadamental Theorem}{66}
-\contentsline {subsection}{\numberline {6.1}Differential Equations}{66}
-\contentsline {subsection}{\numberline {6.2}Accumulation and Net Change}{66}
-\contentsline {subsection}{\numberline {6.3}Physics}{67}
-\contentsline {section}{\numberline {7}Tips on the Course and AP Test}{68}
-\contentsline {section}{\numberline {8}Endnotes}{69}
+\contentsline {section}{\numberline {6}Applications of the Funadamental Theorem}{67}
+\contentsline {subsection}{\numberline {6.1}Differential Equations}{67}
+\contentsline {subsection}{\numberline {6.2}Accumulation and Net Change}{67}
+\contentsline {subsection}{\numberline {6.3}Physics}{68}
+\contentsline {section}{\numberline {7}Tips on the Course and AP Test}{69}
+\contentsline {section}{\numberline {8}Endnotes}{70}
