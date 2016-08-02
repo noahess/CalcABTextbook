@@ -17,7 +17,7 @@ Here is a list of things in order of which I will get to them:
 4. ~~Integrals Generating Functions~~
 5. ~~Calculating Area~~
 6. ~~Disc and Shell Methods~~
-7. The Fundamental Theorem and Consequences
+7. ~~The Fundamental Theorem and Consequences~~
 8. Solutions to Differential Equations
 9. Accumulation and Net Change
 10. Physics (using integrals)
