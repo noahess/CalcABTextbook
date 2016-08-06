@@ -1,4 +1,18 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-Knowing the integral is the antiderivative, we can solve differential equations now. All one has to do is separate the variables so all $y$'s and $dy$ are on one side and all $x$'s and $dx$ are on the other of the equality. For example, we can calculate the classic example of the slope of a graph being dependent upon the $y-$coordinate:$$\frac{dy}{dx}=yk$$$$\frac{1}{y}dy=k*dx$$$$\int\frac{1}{y}dy=k\int dx$$$$\ln(y)=kx+C$$$$y=e^{kx+C}$$$$y=e^{kx}*e^C$$$$y=e^{kx}*P$$$$y=Pe^{kx}$$ for some rate \textit{k} and some initial value (principal) $P$. $P$ is the intial value because when $x=0$, $y=Pe^{0}=P$.
+\paragraph{Example 1:} Solve the differential equation $dy=\frac{-x}{y}dx$ which passes through the point $(0,2)$
+\begin{gather*}
+	y\,dy=-x\,dx\\
+	\int y\,dy=-\int x\,dx\\
+	.5y^2+D=-x^2+E\\
+\end{gather*}
+We don't know either the value of $D$ or $E$, so we can just subtact $D$ from both sides. The benefit of this is we only have one constant now, $E-D$ on the right side. Because $E-D$ is unknown, we can just write it as another constant $.5*C$. We only do this to make the problem a little simpler.
+\begin{gather*}
+	.5y^2=-.5x^2+.5C\\
+	y^2=-x^2+C\\
+	y^2+x^2=C\\
+	2^2+0^2=C\\
+	4=C\\
+\end{gather*}
+So our final answer is a circle centered at the origin that has a radius of 2: $y^2+x^2=4$.\\
 \end{document}
