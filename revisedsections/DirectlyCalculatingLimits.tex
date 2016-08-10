@@ -1,7 +1,7 @@
 \documentclass[../revisedMain.tex]{subfiles}
 \begin{document}
 Unfortunately, there's no simple and easy way to calculate limits. The simplest way is just to ``plug in'' to the function but at some points like holes in the graph or $\infty$, we don't have that luxury. Instead, we can reduce or rewrite equations and also apply some general common sense. For example, $\lim\limits_{x\to\infty} \frac{1}{x}$ must be 0 because as $x$ gets larger, $\frac{1}{x}$ gets smaller to some point at which it must be 0. Using reduction and logic, we may progress on to more complex ideas involving limits where direct substitution fails.
-\paragraph{Rules} There are simple rules for limits: $$\lim_{x\to c} f(x)*g(x) = \lim_{x\to c} f(x) * \lim_{x\to c} g(x)$$$$\lim_{x\to c} \frac{f(x)}{g(x)} = \frac{\lim\limits_{x\to c} f(x)}{\lim\limits_{x\to c} g(x)}$$$$\lim_{x\to c} f(x)^n = (\lim_{x\to c} f(x))^n$$
+\paragraph{Rules} There are simple rules for limits: $$\lim_{x\to c} f(x)*g(x) = \lim_{x\to c} f(x) * \lim_{x\to c} g(x)$$$$\lim_{x\to c} \frac{f(x)}{g(x)} = \frac{\lim\limits_{x\to c} f(x)}{\lim\limits_{x\to c} g(x)}$$$$\lim_{x\to c} f(x)^n = \left(\lim_{x\to c} f(x)\right)^n$$
 The same is true for function addition, subtraction, etc.
 \paragraph{``Plugging In''} In the end, all limit problems will need to have their value inserted at some time. For example, the limit $\lim\limits_{x\to 0} x^2+1=1$. No tricks here, plugging in 0 does return 1. We do not have to deal with any division by zero or infinities, so there is no need to manipulate the problem.
 \paragraph{Reduction} Reduction is relatively simple. If we go back to our example of $$f(x)=\frac{x^2-4}{x-2}$$ we can see that this problem can factor into $$f(x)=\frac{(x-2)(x+2)}{x-2}$$ which cancels and gives us $$f(x)=x+2$$We now see that there does exist a limit at $x=2$, $f(2)=2+2=4$. Previously, directly plugging in 2 would not return a real value.
@@ -42,6 +42,6 @@ $$\lim_{x\to 0} \text{sin} \left ( \frac{1}{x} \right ) \text{ Does Not Exist}$$
 \end{tikzpicture}
 $$\lim_{x\to\infty} \text{sin}(x) \text{ Does Not Exist}$$
 \end{center}
-\par Is $\infty$ an integer? Or where does it fall exactly? If you define $\infty$ to be a value, something can always be added to that value. Therefore, there is no single value that this graph will approach. In fact, it will approach all numbers in the interval [-1,1]. For a periodic graph like sin($x$), there can be no limit because the graph will never stop oscillating.
+\par Is $\infty$ an integer? Or where does it fall exactly? If you define $\infty$ to be a value, something can always be added to that value. Therefore, there is no single number that this graph will approach. In fact, it will approach all numbers in the interval [-1,1]. For a periodic graph like sin($x$), there can be no limit because the graph will never stop oscillating.
 \end{enumerate}
 \end{document}
