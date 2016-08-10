@@ -1,0 +1,24 @@
+\documentclass[../revisedmain.tex]{subfiles}
+\begin{document}
+	Don't worry! Trig sub is easier than it may seem at first. Abstraction is a big thing in mathematics. We like to take something and weed it down to the exact core of how it works. In this section, we will take trigonometry, find out exactly how it works, and use our newfound understanding to help us with Calculus!\\\newline\par Up until now, trigonometry has always meant angles, triangles, the unit circle, all that fun stuff. Let's go back to the very beginning and look at what trigonometry actually is: a set of tools for calculating ratios. Nothing more. You might say that angles are a part of this, too, but remember that angles are determined by ratios!\\\newline\par Trigonometry is just a way to \textit{represent} ratios. Let's take a look at an example: \[\int\frac{1}{\sqrt{16-x^2}}\,dx\] This is an impossible integral. Or at least it is in its current form. Again, the great thing about math is that we can do whatever we want as long as the equality is preserved. Using a combination of the Pythagorean theorem and our knowledge of trigonometry, we can simplify that down.\\\newline\par We know this problem is a ratio, so we're going to use a triangle to model the pieces. Let's look at $\sqrt{16-x^2}$. The square root should be a hint that we can use the Pythagorean theorem. From this, it should be clear that this square root could easily also be representative of a leg of a triangle. Specifically a triangle where the other leg is $x$ and the hypotenuse is $4$. Because we're using a right triangle, we get to use trigonometry to rewrite. We're going to choose one of the two non-right angles and call it $\theta$. For the purpose of this problem, we're going to choose $\theta$ so $\sqrt{16-x^2}$ is related to cosine. Cosine is adjacent over hypotenuse, so in this case: \[\cos(\theta)=\frac{\sqrt{16-x^2}}{4}\]The only reason why we did this is to change the problem into something easier. There is no special secret, nothing like that. Moving on, we can rewrite the previous equation as:\[4\cos(\theta)=\sqrt{16-x^2}\]We have now found a different way to represent our denominator! Success! Our integral now can be rewritten as: \[\int\frac{1}{4\cos(\theta)}\,dx\] But we're still left with this $dx$. We need to find some way to change that to $d\theta$. We have six ways to do so: sine, cosine, secant, etc.! We get to have our pick because they all relate $x$ in some way to $\theta$. What we're going to do is take the easiest possible route. In this triangle, the easiest way is $\sin(\theta)$ which is simply $\displaystyle\frac{x}{4}$. Our next job is to find $d\theta$ in terms of $dx$: 
+	\begin{gather*}
+		\sin(\theta)=\frac{x}{4}\\
+		4\sin(\theta)=x\\
+		4\cos(\theta)\,d\theta=dx\\
+	\end{gather*}
+	So plugging back into our original integral:
+	\[\int\frac{1}{4\cos(\theta)}4\cos(\theta)d\theta\]
+	Which is easy to calculate!
+	\begin{gather*}
+		\int\frac{1}{4\cos(\theta)}4\cos(\theta)\,d\theta\\
+		\int d\theta\\
+		\theta +C\\
+	\end{gather*}
+	We should convert $\theta$ back to $x$ now, and the easiest way to do that is just to calculate the arcsine in this case.
+	\begin{gather*}
+		\sin(\theta)=\frac{x}{4}\\
+		\theta=\arcsin\left(\frac{x}{4}\right)\\
+	\end{gather*}
+	So our answer is\[\arcsin\left(\frac{x}{4}\right)+C\]
+	Why did we choose the trigonometric functions in the order that we did? It took me almost an entire year of trying to figure out exactly why we were able to do trigonometric substitution. The easiest way to put it is \textit{we do it because we can}. There is no secret that you're missing out on. We're just changing how we represent some values. Why didn't we use, say, tangent, or something other than sine or cosine? The answer is that in this specific problem, those were the easiest. If we were to use tangent, we would complicate the problem even more. After a lot of work, we should end up at the same answer. It will just take much longer.
+\end{document}

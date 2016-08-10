@@ -1,4 +1,58 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-The antiderivative is very helpful in physics problems. We already know that $x(t)$, $v(t)$, and $a(t)$ are all related through their rates (derivatives), so they must be related with their antiderivatives as well. There is no single antiderivative for a function, so instead of saying $$\int v(t) dt=x(t)$$ which is false, we can say$$\int v(t)dt=\text{change in }x(t)$$or$$\int v(t)dt=x(t)+C$$At any point $t$, the change in $x(t)$ will be $\int v(t) dt$. This works for all relations as well:$$\int\left(\int a(t) dt\right)dt=\int v(t)dt=\text{change in }x(t)=x(t)+C$$
+\paragraph{Example 1:}The velocity of a particle moving along the $x$-axis is $v(t)=t^2-10t+30$. What is the change in position from time $t=0$ to $t=7$?\\\newline\par The AP test has multiple problems where a particle is moving along the $x$-axis dependent on time $t$. Don't think of this as a 3-dimensional problem even though it seems like it. This is \textit{not} how you should think about it:\\\vspace{.125in}
+\begin{center}
+\resizebox{3.5in}{!}{
+\begin{tikzpicture}
+	\begin{axis}
+	[
+	view={45}{30},
+	axis lines = left,
+	xlabel=$x$,
+	ylabel=$y$,
+	zlabel=$t$,
+	]
+	\addplot3
+	[
+	domain=0:8,
+	samples=60,
+	samples y=0,
+	color=red,
+	]
+	({x^2-10*x+30},
+	{x},
+	{.125*x^2});
+	\end{axis}	
+\end{tikzpicture}
+}
+\end{center}
+Because they're only asking for the change in the $x$-coordinate with relation to time $t$. This is how you should approach the problem:
+\begin{center}
+	\resizebox{3.5in}{!}{
+	\begin{tikzpicture}
+	\begin{axis}
+	[
+	axis lines=left,
+	xlabel=$t$,
+	ylabel=$x$,
+	]
+		\addplot
+		[
+		domain=0:8,
+		samples=60,
+		color=red,
+		]
+		{x^2-10*x+30};
+	\end{axis}
+	\end{tikzpicture}
+}
+\end{center}
+Now that the confusing wording is out of the way, the problem is pretty simple. All we need to do is find the net change in position given the velocity:
+\begin{gather*}
+	v(t)=t^2-10t+30\\
+	\int_{0}^{7}v(t)\,dt=\int_{0}^{7}t^2-10t+30\,dt\\
+	\int_{0}^{7}v(t)\,dt=\frac{t^3}{3}-5t^2+30t\,\Big|_{0}^{7}\\
+	\int_{0}^{7}v(t)\,dt=\frac{343}{3}-245+210\\
+	79\frac{1}{3}
+\end{gather*}
 \end{document}

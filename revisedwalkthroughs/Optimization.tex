@@ -1,4 +1,51 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-	\paragraph{Example 1:} Under construction! Check back soon!\\
+	\paragraph{Example 1:} As part of a startup that sells Jell-O\textsuperscript{\textregistered} through the internet, you are tasked with finding the dimensions for a new box for shipping. You are told that the length must be three times the width. The bottom and top parts of the box cost $2$ per square foot and the sides cost $5$ per square foot. You must design the cheapest box that can hold $30$ cubic feet of Jell-O\textsuperscript{\textregistered}.\\\newline\par First, let's define the function that we want to optimize. The objective is to reduce cost, so we want to find the minimum of the cost function. Given length $\ell$, width $w$, and height $h$, our cost function $C$ is:
+	\[
+	C=2*(w*h)*5+2*(\ell*h)*5+2*(w*\ell)*2
+	\]
+	Some other information we have: $\ell=3w$, and $\ell*w*h=30$. Rewriting the cost function, we have:
+	\[
+	C=10*(w*h)+10*(3w*h)+4*(w*3w)
+	\]
+	\[
+	C=40wh+12w^2
+	\]
+	We can also solve our volume function:\[3w*w*h=30\]\[h=\frac{10}{w^2}\] And substitute that back into our cost function:
+	\[
+	C=\frac{400}{w}+10w^2
+	\]
+	So now we have a function that combines the cost and constraint information that we were given! Our goal is to minimize cost, so we will take the derivative and find the critical numbers:
+	\begin{gather*}
+		C(w)=10w^2+400w^{-1}\\
+		C'(w)=20w-400w^{-2}\\
+		0=20w-400w^{-2}\\
+		0=w-20w^{-2}\\
+		20w^{-2}=w\\
+		20=w^3\\
+		w=0?,\sqrt[3]{20}\\
+	\end{gather*}
+	A box with width $0$ would not only be silly but impossible without infinite material. We can throw that one out immediately. As good practice, though, we should make sure $\sqrt[3]{20}$ is in fact a minimum. We can use the second derivative test to do so:
+	\begin{gather*}
+		C'(w)=20w-400w^{-2}\\
+		C''(w)=20+800w^{-3}\\
+	\end{gather*}
+	\begin{center}
+		\begin{tabular}{ |c|c|c|c| } 
+			\hline
+			0 & (0,$\sqrt[3]{20}$)&$\sqrt[3]{20}$&($\sqrt[3]{20},\infty$)\\ \hline
+			$\infty$& + & 60 & +\\
+			\hline
+		\end{tabular}
+	\end{center}
+	So because there is no change in sign at the second derivative at $w=\sqrt[3]{20}$, it must not be a point of inflection, and because it's positive, it must be concave up. This means that our function must have a minimum at this point. We now know $w$ but we also need $h$ and $\ell$, so we're not entirely done yet.
+	\begin{gather*}
+		\ell=3w\\
+		\ell=3\sqrt[3]{20}\\
+		\ell*w*h=30\\
+		3*\sqrt[3]{20}*\sqrt[3]{20}*h=30\\
+		h=\frac{30}{3\sqrt[3]{400}}\\
+		h=\frac{10}{\sqrt[3]{400}}\\
+	\end{gather*}
+	And now we have our dimensions!\\
 \end{document}
