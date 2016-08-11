@@ -8,7 +8,7 @@ Madison, WI 53711
 
 
 
-### As of 8/10/2016, the textbook is still unfinished.
+### As of 8/10/2016, the textbook is finished but needs editing
 Here is a list of things in order of which I will get to them:  
 
  - [x] Limits of Riemann Sums  
@@ -24,4 +24,6 @@ Here is a list of things in order of which I will get to them:
  - [x] Derivative-based Optimization  
  - [x] u-Substitution  
  - [x] Trigonometric Substitution
- - [ ] Spellchecking and editing
+ - [x] Spellchecking and editing
+
+If you catch any errors or have any feedback, please contact me!
