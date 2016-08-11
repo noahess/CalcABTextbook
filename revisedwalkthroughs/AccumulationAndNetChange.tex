@@ -1,4 +1,11 @@
 \documentclass[../revisedmain.tex]{subfiles}
 \begin{document}
-\paragraph{Example 1:}By how much has a 
+\paragraph{Example 1:}The change in time Mr. Hylkema must spend grading Calculus homework each day $t$ is modeled by the function $h\left(t\right)=\sin\left(\frac{x\pi}{4}\right)+\cos\left(\frac{x\pi}{2}\right)$ where $h\left(t\right)$ is in hours. By how many hours has Mr. Hylkema's homework load changed between day 0 and day 20?
+\begin{gather*}
+	h\left(t\right)=\sin\left(\frac{x\pi}{4}\right)+\cos\left(\frac{x\pi}{2}\right)\\
+	\int_{0}^{20}h\left(t\right)dt=\int_{0}^{20}\sin\left(\frac{x\pi}{4}\right)+\cos\left(\frac{x\pi}{2}\right)dt\\
+	\int_{0}^{20}h\left(t\right)dt=\int_{0}^{20}\sin\left(\frac{x\pi}{4}\right)dt+\int_{0}^{20}\cos\left(\frac{x\pi}{2}\right)dt\\
+	H\left(t\right)=\frac{-4}{\pi}\cos\left(\frac{x\pi}{4}\right)\Big|_{0}^{20}+\frac{2}{\pi}\sin\left(\frac{x\pi}{2}\right)\Big|_{0}^{20}\\
+	H\left(t\right)\approx2.546\\
+	\end{gather*}
 \end{document}
