@@ -7,6 +7,9 @@
 \usepackage{csquotes}
 \usepackage{pstricks-add}
 \usepackage{graphicx}
+\usepackage[letterpaper, margin=1.25in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
 \mathtoolsset{showonlyrefs}
 \psset{plotpoints=200,algebraic}
 \pgfplotsset{compat=1.12}
@@ -29,14 +32,26 @@
 	\pgfkeyslet{/data point/z}\Y
 	\pgfkeyslet{/data point/x}\Z
 }
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textbf{\rightmark}}
+\lhead{The Guide to Calculus AB}
+\rfoot{Page \thepage}
 \title{Noah's Guide to Calculus}
 \author{Noah Stockwell}
 \date{2016-2017}
-\newcommand{\newMidline}{\noindent\rule[0.5ex]{\linewidth}{1pt}}
+\newcommand{\newMidline}
+{
+	\noindent
+	\rule{\textwidth}{.5pt}
+}
+
+
 \newcommand{\newchapter}[2]
 {
-	\subsection{#1}\subfile{revisedsections/#2}\newMidline\subfile{revisedwalkthroughs/#2}\newMidline\subfile{revisedproblems/#2}\newMidline\vspace{.125in}
+	\subsection{#1}\subfile{revisedsections/#2}\vspace{.25in}\subfile{revisedwalkthroughs/#2}\newMidline\subfile{revisedproblems/#2}\newMidline\vspace{.125in}
 }
+
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 \begin{document}
 \maketitle
@@ -51,15 +66,17 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \subfile{revisedsections/Introduction}
 \newpage
 \tableofcontents
+\newpage{\begin{center}\Huge Limits\end{center}}
 \newpage
 \section{Limits} \subfile{revisedsections/IntroToLimits}
 \subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits} 
-\newchapter{Directly Calculating Limits}{DirectlyCalculatingLimits}
+\newpage\newchapter{Directly Calculating Limits}{DirectlyCalculatingLimits}
 %\newchapter{The Squeeze Theorem}{SqueezeTheorem}
-\subsection{The Squeeze Theorem}\subfile{revisedsections/SqueezeTheorem}\newMidline\subfile{revisedwalkthroughs/SqueezeTheorem}\newMidline\vspace{.125in}
+\newpage\subsection{The Squeeze Theorem}\subfile{revisedsections/SqueezeTheorem}\newMidline\subfile{revisedwalkthroughs/SqueezeTheorem}\newMidline\vspace{.125in}
 \subsection{Relative Magnitudes} \subfile{revisedsections/RelativeMagnitudes}\newpage
-\section{Derivatives} \subfile{revisedsections/IntroToDerivatives}
 \newpage
+\newpage{\begin{center}\Huge Derivatives\end{center}}
+\newpage\section{Derivatives} \subfile{revisedsections/IntroToDerivatives}
 \newchapter{The Difference Quotient}{DifferenceQuotient}
 \subsection{Estimating Derivatives}\subfile{revisedsections/EstimatingDerivatives}
 \newchapter{Rules of Derivatives}{DerivativeRules}
@@ -72,7 +89,6 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \section{Applications of Derivatives}
 \subsection{Units}\subfile{revisedsections/DerivativeUnits}\newMidline\subfile{revisedproblems/DerivativeUnits}\newMidline
 \subsection{Instantaneous Rate of Change}\subfile{revisedsections/InstantaneousRateOfChange}
-\newpage
 \newchapter{Tangent Line Approximations}{TangentLineApproximations}
 \subsection{Physics}\subfile{revisedsections/DerivativePhysics}
 \newchapter{Related Rates}{DerivativeRelatedRates}
@@ -81,6 +97,7 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \newchapter{Slope Fields}{SlopeFields}
 \subsection{Mean Value Theorem}\subfile{revisedsections/MeanValueTheorem}
 \newchapter{L'h\^{o}pital's Rule}{LhospitalsRule}
+\newpage{\begin{center}\Huge Integrals\end{center}}
 \newpage
 \section{Antiderivatives and Definite Integrals}
 \subsection{Introduction to Antiderivatives}\subfile{revisedsections/Antiderivatives}
@@ -90,11 +107,11 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \newchapter{$u$ Substitution}{uSub}
 \subsection{Trigonometric Substitution}\subfile{revisedsections/TrigSub}
 \newchapter{Average Value}{AverageValue}
-\newpage
 \newchapter{Integrals Generating Functions}{IntegralsGeneratingFunctions}
 \subsection{Calculating Area}\subfile{revisedsections/CalculatingArea}
 \subsection{Disc Method}\subfile{revisedsections/DiscMethod}
-\newchapter{Shell Method}{WasherMethod}
+\newpage\newchapter{Shell Method}{WasherMethod}
+\newpage{\begin{center}\Huge The Fundamental Theorem\end{center}}
 \newpage
 \section{The Fundamental Theorem}
 \subsection{Introduction}\subfile{revisedsections/FundamentalTheoremIntroduction}
@@ -104,7 +121,7 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \newchapter{Solving Differential Equations}{SolvingDifferentialEquations}
 \newchapter{Accumulation and Net Change}{AccumulationAndNetChange}
 \newchapter{Physics}{SolvingPhysicsWithFundamentalTheorem}
-\newline\vfill
+\vfill
 \newpage
 \section{Tips on the Course and AP Test}\subfile{revisedsections/TipsOnTheApTest}\newpage
 \section{Endnotes}\subfile{revisedsections/Endnotes}
