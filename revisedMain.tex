@@ -10,6 +10,7 @@
 \usepackage[letterpaper, margin=1.25in]{geometry}
 \usepackage{fancyhdr}
 \usepackage{xcolor}
+\usepackage{ifthen}
 \mathtoolsset{showonlyrefs}
 \psset{plotpoints=200,algebraic}
 \pgfplotsset{compat=1.12}
@@ -32,11 +33,18 @@
 	\pgfkeyslet{/data point/z}\Y
 	\pgfkeyslet{/data point/x}\Z
 }
+
+
 \pagestyle{fancy}
-\fancyhf{}
-\rhead{\textbf{\rightmark}}
-\lhead{The Guide to Calculus AB}
-\rfoot{Page \thepage}
+\fancyhead{}
+\fancyhead[L]{\ifthenelse{\isodd{\value{page}}}{The Guide to Calculus AB}{\textbf{\rightmark}}}
+\fancyhead[R]{\ifthenelse{\isodd{\value{page}}}{\textbf{\rightmark}}{The Guide to Calculus AB}}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot{}
+\fancyfoot[L]{\ifthenelse{\isodd{\value{page}}}{}{Page \thepage}}
+\fancyfoot[R]{\ifthenelse{\isodd{\value{page}}}{Page \thepage}{}}
+	
+	
 \title{Noah's Guide to Calculus}
 \author{Noah Stockwell}
 \date{2016-2017}
