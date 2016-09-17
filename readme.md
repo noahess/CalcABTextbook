@@ -1,3 +1,5 @@
+## [Download] (https://github.com/nstockwell6806/CalcABTextbook/blob/master/revisedMain.pdf)
+
 # Noah's Guide to AP Calculus AB
 This is a project I put together to help those taking AP Calculus AB. This textbook is short, concise, and somewhat abstract. The entire book (with the exception of a few XKCD comics) is all my own work. If you have any comments, suggestions, or questions in general about any math content up to Linear Algebra, feel free to contact me! My e-mail is [this](mailto:noah.stockwell@edgewoodhs.org "my e-mail") until the end of May 2017. After that, forward anything to Edgewood High School with instructions to be sent to me (Noah Stockwell):
 
