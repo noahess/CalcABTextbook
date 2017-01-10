@@ -1,0 +1,14 @@
+\documentclass[../revisedMain.tex]{subfiles}
+\begin{document}
+	The two most important topics in AP Calculus BC are sequences and series. Terminology is very important in math to avoid confusion, but the words themselves can be unintuitive or confusing. Because of that, let's break down the terms we will use:
+	\paragraph{Natural Numbers} Counting numbers (1, 2, 3, 4, ...) not including 0.
+	\paragraph{Sequences} A sequence is a function that takes natural numbers ($\mathbb{N}$) and maps them to the real numbers ($\mathbb{R}$). We can think of a sequence $f(n)$ like $f(1)=x_1, f(2)=x_2, f(3)=x_3, \ldots$ . Instead of writing sequences like this, we almost always use shorthand. We will write a sequence $a$ like $a_1, a_2, a_3, \ldots$, with the subscript being the index, or natural number $n$ that we input into the function. We also tend to treat sequences like a set of numbers and write them like this: $\left\rbrace  a_1, a_2, a_3, \ldots \right\rbrace$. To make things even easier to write, sequences will generally be written as $\left\lbrace a_n \right\rbrace$.
+	\paragraph{Convergence} Look back to the $\epsilon-\delta$ formation of the limit, as this definition closely mirrors it. The definition is:
+	\begin{quote}
+		A sequence $\left\lbrace a_n\right\rbrace$ converges to a limit $L$ $\left(\displaystyle\lim\limits_{n\to\infty}\left\lbrace a_n \right\rbrace\to L\right)$ if you give me an arbitrary positive number $\epsilon$ and I can find you an $N$ where \textbf{all} $a_n$'s with $n\ge N$ are within your $\epsilon$ distance of $L$.
+	\end{quote} 
+	The idea is that you can tell me how close you want numbers to be to the limit, and I can give you an $N$ where \textbf{all} $a_n$'s with $n\ge N$ are only that far off from the the limit as $n$ approaches $\infty$. It should be trivial to see that $\left\lbrace a_n \right\rbrace$ must only decrease or stay constant for all $n\ge N$ to converge to a limit.
+	\paragraph{Divergence} A sequence $\left\lbrace a_n \right\rbrace$ diverges if it does not converge.
+	\paragraph{Series} A sum of all terms in a sequence. This is usually written in summation notation:\[\lim\limits_{n\to\infty}\sum_{i=k}^{n} a_i\] Or if it is the sum of an infinite sequence, just \[\sum a_i\] It should be trivial to see that 1) the sequence $a_i$ must converge and 2) that it must converge to $0$.
+	
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass[../revisedmain.tex]{subfiles}
+\begin{document}
+	The \textit{epsilon} ($\epsilon$) - \textit{delta} ($\delta$) formation of the limit actually explains how the limit works. Here is what this limiting process is defined as:
+	\begin{quote}
+		For a function $f(x)$, a point $x=c$, the limit at that point $f(c)=L$, and a positive $\epsilon$ error, I can find you a $\delta$ window ($c-\delta$ to $c+\delta$) where the difference between all $f(k)$ with $c-\delta\le k\le c+\delta$ and the limit $L$ is less than $\epsilon$
+	\end{quote}
+	Essentially, if you have a function $f(x)$ and you want to know a point $f(x)=L$ with a maximum error of $\epsilon$, I can find you an $\delta$ window where if you plug in any point in the window, you will be less than your $\epsilon$ error away from your point $f(x)=L$.\\
+	Let's say you have $f(x)=x^2$ and you want to know $5.1^2$ with an \textit{epsilon}-error of 3, the window where all of the acceptable points lie can be $\sqrt{21.01}\le x\le\sqrt{31.01}$\\\newline
+	That sounds good, but how does this show us that the limit exists? The answer is that if you can show this for any $\epsilon$ in general, you can make it as small as you want, and as your $\epsilon$ error gets smaller, your $\delta$ window closes in around a point $x=c$. If this is the case, we say that $f(c)$ has a limit $L$. If you cannot show this, then $f(c)$ must not have a limit $L$.\\\newline
+	When we want to find a limit, we need a guess for what $L$ actually is. Let's take the function we started out our discussion of limits with: $f(x)=\displaystyle\frac{x^2-4}{x-2}$ when $x=2$. If we try to evaluate $f(2)$, we do not get a real answer. Since it appears to us like the limit does exist at that point, let's use our new definition of the limit to evaluate it:
+	\begin{center}
+		First, let's write the difference between some $f(x)$ and the limit $L$:
+		$$|f(x)-L|$$
+		Step two is to require our error to be bounded by $\epsilon$:
+		$$|f(x)-L|\le\epsilon$$
+		Third, let's write in our equations:
+		$$|\frac{x^2-4}{x-2}-4|\le\epsilon$$
+		We are trying to find a $\delta$-window around $x=2$, so plugging that in, we get:
+		$$|\frac{(2+\delta)^2-4}{2+\delta}-4|$$
+		$$\frac{4+4\delta}{den}
+	\end{center}
+\end{document}

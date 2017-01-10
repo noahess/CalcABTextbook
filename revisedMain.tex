@@ -11,6 +11,7 @@
 \usepackage{fancyhdr}
 \usepackage{xcolor}
 \usepackage{ifthen}
+\usepackage{amsfonts}
 \mathtoolsset{showonlyrefs}
 \psset{plotpoints=200,algebraic}
 \pgfplotsset{compat=1.12}
@@ -43,8 +44,8 @@
 \fancyfoot{}
 \fancyfoot[L]{\ifthenelse{\isodd{\value{page}}}{}{Page \thepage}}
 \fancyfoot[R]{\ifthenelse{\isodd{\value{page}}}{Page \thepage}{}}
-	
-	
+
+
 \title{Noah's Guide to Calculus}
 \author{Noah Stockwell}
 \date{2016-2017}
@@ -59,7 +60,8 @@
 {
 	\subsection{#1}\subfile{revisedsections/#2}\vspace{.25in}\subfile{revisedwalkthroughs/#2}\newMidline\subfile{revisedproblems/#2}\newMidline\vspace{.125in}
 }
-
+\newcommand{\sequence}[1]
+{\(\left\lbrace #1_n \right\rbrace\)}
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 \begin{document}
 \maketitle
@@ -77,7 +79,7 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \newpage{\begin{center}\Huge Limits\end{center}}
 \newpage
 \section{Limits} \subfile{revisedsections/IntroToLimits}
-\subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits} 
+\subsection{Types of Limits} \subfile{revisedsections/TypesOfLimits}
 \newpage\newchapter{Directly Calculating Limits}{DirectlyCalculatingLimits}
 %\newchapter{The Squeeze Theorem}{SqueezeTheorem}
 \newpage\subsection{The Squeeze Theorem}\subfile{revisedsections/SqueezeTheorem}\newMidline\subfile{revisedwalkthroughs/SqueezeTheorem}\newMidline\vspace{.125in}
@@ -131,6 +133,12 @@ xlabel=$x$,ylabel=$y$,colormap/cool, ]
 \newchapter{Physics}{SolvingPhysicsWithFundamentalTheorem}
 \vfill
 \newpage
+\newpage{\begin{center}\Huge Calculus BC\end{center}}\newpage
+\section{Extra Topics}
+\subsection{Epsilon-Delta Formation of the Limit}\subfile{revisedsections/EpsilonDelta}\newpage
+\section{Sequences}\subfile{revisedsections/IntroToSequences}\newpage
+\subsection{Sequence Operations}\subfile{revisedsections/SequenceOperations}\newpage
+\subsection{Sequence Convergence and Tests}\subfile{revisedsections/SequenceConvergence}
 \section{Tips on the Course and AP Test}\subfile{revisedsections/TipsOnTheApTest}\newpage
 \section{Endnotes}\subfile{revisedsections/Endnotes}
 \end{document}
