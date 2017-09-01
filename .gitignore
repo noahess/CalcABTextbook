@@ -54,3 +54,4 @@ Temporary Items
 *.toc
 *.fls
 *.fdb_latexmk
+*.synctex(busy)

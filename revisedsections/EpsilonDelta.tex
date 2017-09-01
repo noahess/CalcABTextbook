@@ -16,10 +16,12 @@
 		Third, let's write in our equations:
 		$$\left|\frac{x^2-4}{x-2}-4\right|\le\epsilon$$
 		We are trying to find a $\delta$-window around $x=2$, so plugging that in, we get:
-		$$\left|\frac{(2+\delta)^2-4}{(2+\delta)-2}-4\right|$$
-		$$\left|\frac{\delta^2+4\delta}{\delta}-4\right|$$
-		$$\left|4+\delta-4\right|$$
-		$$\left|\delta\right|$$
+		$$\left|\frac{(2+\delta)^2-4}{(2+\delta)-2}-4\right|\le\epsilon$$
+		$$\left|\frac{\delta^2+4\delta}{\delta}-4\right|\le\epsilon$$
+		$$\left|4+\delta-4\right|\le\epsilon$$
+		$$\left|\delta\right|\le\epsilon$$
+		$$\delta\le\epsilon$$
+		Where $\epsilon\ge 0$ - this is guaranteed by the fact that $\epsilon$ is positive (see definition).
 		\end{center}
 	So in fact, if we want to be $\epsilon$ away from the limit $L$, all we have to do is choose a $\delta$ such that $\delta\le\epsilon$. This should make intuitive sense because if you simplify the equation, the slope is 1. An $\epsilon$ change in $y$ will result in a $\epsilon$ change in $x$.
 \end{document}
